@@ -1,0 +1,911 @@
+2013-11-23 18:48:11.3729 TRACE Starting logger for CourseId: compinvesting1-003
+2013-11-23 18:48:31.3874 TRACE Starting logger for CourseId: compinvesting1-003
+2013-11-23 18:48:52.2980 TRACE Starting logger for CourseId: compinvesting1-003
+2013-11-23 18:53:17.4135 INFO Starting logger for CourseId: compinvesting1-003
+2013-11-23 18:53:17.4335 INFO Output root: E:\Coursera
+2013-11-23 18:53:17.4426 DEBUG Output path: E:\Coursera\compinvesting1-003
+2013-11-23 18:53:59.5429 INFO Starting logger for CourseId: compinvesting1-003
+2013-11-23 18:53:59.5689 INFO Output root:	E:\Coursera
+2013-11-23 18:53:59.5689 DEBUG Output path:	E:\Coursera\compinvesting1-003
+2013-11-23 19:00:29.0421 INFO Starting logger for CourseId: compinvesting1-003
+2013-11-23 19:00:29.0691 INFO Output root:	E:\Coursera
+2013-11-23 19:00:29.0691 DEBUG Output path:	E:\Coursera\compinvesting1-003
+2013-11-23 19:01:08.5041 INFO Starting logger for CourseId: compinvesting1-003
+2013-11-23 19:01:08.5231 INFO Output root:	E:\Coursera
+2013-11-23 19:01:08.5231 DEBUG Output path:	E:\Coursera\compinvesting1-003
+2013-11-23 19:01:08.5341 INFO Start cleaning directory E:\Coursera\compinvesting1-003
+2013-11-23 19:01:08.5341 DEBUG Deleting E:\Coursera\compinvesting1-003
+2013-11-23 19:03:30.5111 INFO Starting logger for CourseId: compinvesting1-003
+2013-11-23 19:03:30.5311 INFO Output root:	E:\Coursera
+2013-11-23 19:03:30.5311 DEBUG Output path:	E:\Coursera\compinvesting1-003
+2013-11-23 19:03:30.5311 INFO Start cleaning directory E:\Coursera\compinvesting1-003
+2013-11-23 19:03:30.5431 DEBUG Deleting E:\Coursera\compinvesting1-003
+2013-11-23 19:03:30.5431 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003
+2013-11-23 19:03:30.5431 DEBUG Creating directory: 
+2013-11-23 19:04:38.6727 INFO Starting logger for CourseId: compinvesting1-003
+2013-11-23 19:04:38.6987 INFO Output root:	E:\Coursera
+2013-11-23 19:04:38.6987 DEBUG Output path:	E:\Coursera\compinvesting1-003
+2013-11-23 19:04:38.6987 INFO Start cleaning directory E:\Coursera\compinvesting1-003
+2013-11-23 19:04:38.7427 DEBUG Deleting E:\Coursera\compinvesting1-003
+2013-11-23 19:04:38.7717 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003
+2013-11-23 19:04:38.7717 ERROR Error cleaning output directory. Exiting.
+2013-11-23 19:05:18.4817 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:05:18.5027 INFO Output root:	E:\Coursera 
+2013-11-23 19:05:18.5117 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:05:18.5117 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:05:18.5117 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:05:18.5277 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003 System.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 80
+2013-11-23 19:05:18.5277 ERROR Error cleaning output directory. Exiting. 
+2013-11-23 19:05:42.8108 INFO Starting logger for CourseId: compinvesting1-003\r\n
+2013-11-23 19:05:42.8308 INFO Output root:	E:\Coursera\r\n
+2013-11-23 19:05:42.8308 DEBUG Output path:	E:\Coursera\compinvesting1-003\r\n
+2013-11-23 19:05:42.8308 INFO Start cleaning directory E:\Coursera\compinvesting1-003\r\n
+2013-11-23 19:05:42.8308 DEBUG Deleting E:\Coursera\compinvesting1-003\r\n
+2013-11-23 19:05:42.8568 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003\r\nSystem.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 80
+2013-11-23 19:05:42.8568 ERROR Error cleaning output directory. Exiting.\r\n
+2013-11-23 19:08:22.4660 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:08:22.4870 INFO Output root:	E:\Coursera 
+2013-11-23 19:08:22.4870 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:08:22.4980 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:08:22.4980 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:08:22.4980 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003 System.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 80
+2013-11-23 19:08:22.5160 ERROR Error cleaning output directory. Exiting. 
+2013-11-23 19:08:42.4745 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:08:42.5025 INFO Output root:	E:\Coursera 
+2013-11-23 19:08:42.5025 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:08:42.5025 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:08:42.5025 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:08:42.5215 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003 System.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 80
+2013-11-23 19:08:42.5215 ERROR Error cleaning output directory. Exiting. 
+2013-11-23 19:10:04.6809 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:10:04.7019 INFO Output root:	E:\Coursera 
+2013-11-23 19:10:04.7109 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:10:04.7109 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:10:04.7109 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:10:04.7109 DEBUG Creating directory structure. 
+2013-11-23 19:10:17.1415 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:10:17.1615 INFO Output root:	E:\Coursera 
+2013-11-23 19:10:17.1615 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:10:17.1615 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:10:17.1755 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:10:17.1755 DEBUG Creating directory structure. 
+2013-11-23 19:27:54.5801 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:27:54.6001 INFO Output root:	E:\Coursera 
+2013-11-23 19:27:54.6001 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:27:54.6121 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:27:54.6121 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:27:54.6121 DEBUG Creating directory structure. 
+2013-11-23 19:29:28.8020 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:29:28.8230 INFO Output root:	E:\Coursera 
+2013-11-23 19:29:28.8230 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:29:28.8230 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:29:28.8361 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:29:28.8361 DEBUG Creating directory structure. 
+2013-11-23 19:29:31.0793 DEBUG Loading static content from document. 
+2013-11-23 19:31:55.7446 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:31:55.7736 INFO Output root:	E:\Coursera 
+2013-11-23 19:31:55.7736 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:31:55.7736 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:31:55.7736 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:31:55.7736 DEBUG Creating directory structure. 
+2013-11-23 19:31:58.7970 DEBUG Loading static content from document. 
+2013-11-23 19:31:58.8110 TRACE Node outer HTML: <script>window.onerror = function(message, url, lineNum) {
+
+  // First check the URL and line number of the error
+  url = url || window.location.href;
+  // 99% of the time, errors without line numbers arent due to our code,
+  // they are due to third party plugins and browser extensions
+  if (lineNum === undefined || lineNum == null) return;
+  
+  // Now figure out the actual error message
+  // If it's an event, as triggered in several browsers
+  if (message.target && message.type) {
+    message = message.type;
+  }
+  if (!message.indexOf) {
+    message = 'Non-string, non-event error: ' + (typeof message);
+  }
+  
+  var errorDescrip = {
+    message: message,
+    script: url,
+    line: lineNum,
+    url: document.URL
+  }
+  
+  var err = {
+    key: 'page.error.javascript', 
+    value: errorDescrip
+  }
+  
+  window._204 = window._204 || [];
+  window._204.push(err);
+  
+  window._gaq = window._gaq || [];
+  window._gaq.push(err);
+}</script> 
+2013-11-23 19:31:58.8240 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:58.8240 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 19:31:58.8330 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 19:31:58.8330 TRACE       {1} 
+2013-11-23 19:31:58.8930 TRACE Node outer HTML: <script>window.onerror = function(message, url, lineNum) {
+
+  // First check the URL and line number of the error
+  url = url || window.location.href;
+  // 99% of the time, errors without line numbers arent due to our code,
+  // they are due to third party plugins and browser extensions
+  if (lineNum === undefined || lineNum == null) return;
+  
+  // Now figure out the actual error message
+  // If it's an event, as triggered in several browsers
+  if (message.target && message.type) {
+    message = message.type;
+  }
+  if (!message.indexOf) {
+    message = 'Non-string, non-event error: ' + (typeof message);
+  }
+  
+  var errorDescrip = {
+    message: message,
+    script: url,
+    line: lineNum,
+    url: document.URL
+  }
+  
+  var err = {
+    key: 'page.error.javascript', 
+    value: errorDescrip
+  }
+  
+  window._204 = window._204 || [];
+  window._204.push(err);
+  
+  window._gaq = window._gaq || [];
+  window._gaq.push(err);
+}</script> 
+2013-11-23 19:31:58.8980 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:58.9100 TRACE Node outer HTML: <script type="text/javascript">
+    // SET UP THE MULTITRACKER
+        window.logger = window.Log({level:"error"});
+        var parts = location.host.split(".");
+    while(parts.length > 2) { parts.shift(); }
+
+    window.multitracker = window.MultiTracker({logger:window.logger});
+    window.multitracker.register('204', window._204 = window._204 || []);
+    window.multitracker.register('ga', window._gaq = window._gaq || [], 'google');
+
+    // SET UP GA and 204
+    window._gaq.push(['_setAccount', 'UA-28377374-1']);
+    window._gaq.push(['_setDomainName', 'coursera.org']);
+    window._gaq.push(['_setAllowLinker', true]);  
+    window._gaq.push(['_trackPageview']);
+    
+    // configure 204 with the following settings
+    window._204.push(["client", "spark"]);
+    window._204.push(["user", 201383]);
+    window._204.push(["domain", "." + parts.join(".")]);
+
+    // set off the first event
+    window._204.push({key:"pageview", val:{}});
+
+    // override our multitracker queues with the ga queue when it is ready
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    
+      ga.onload = ga.onreadystatechange = function() {
+          ga.onreadystatechange = ga.onload = null;
+          window.multitracker.get('ga').queue = window._gaq;
+      };
+    })();
+
+    // override our multitracker queues with the 204 queue when it is ready
+    (function() {
+      var a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;
+      a.src = 'https://eventing.coursera.org/204.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(a, s);
+      a.onload = a.onreadystatechange = function() {
+          a.onreadystatechange = a.onload = null;
+          window.multitracker.get('204').queue = window._204;
+      };
+    })();
+</script> 
+2013-11-23 19:31:58.9100 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:58.9290 TRACE Node outer HTML: <script>
+  // Set up shared AB testing object
+  (function() {
+    window.ab = {};
+
+    // we want to share the 204 session cookie with the AB session cookie...
+    var sessionId = AB.makeSession("__204u", {expires:365, domain:"." + location.host});
+
+    window.ab.user = window.AB(201383, "user", {debug:true, tracker:window.multitracker, logger:window.logger});
+    window.ab.session = window.AB(sessionId, "session", {debug:true, tracker:window.multitracker, logger:window.logger});
+
+    if(window.CourseraABExperiments.user) {
+        window.ab.user.addExperiments(window.CourseraABExperiments.user);
+        window.ab.user.runExperimentsOn("body");
+    }
+
+    if(window.CourseraABExperiments.session) {
+        window.ab.session.addExperiments(window.CourseraABExperiments.session);
+        window.ab.session.runExperimentsOn("body");
+    }
+  })();
+</script> 
+2013-11-23 19:31:58.9430 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:58.9430 TRACE Node outer HTML: <script>
+      // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+
+        $("[data-readme]").each(function() {
+            window.ReadMe(this);
+        });
+    </script> 
+2013-11-23 19:31:58.9560 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:58.9560 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 19:31:58.9770 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 19:31:58.9770 TRACE       {1} 
+2013-11-23 19:31:59.0030 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 19:31:59.0030 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 19:31:59.0180 TRACE       {1} 
+2013-11-23 19:31:59.0180 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 19:31:59.0400 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 19:31:59.0400 TRACE       {1} 
+2013-11-23 19:31:59.0630 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 19:31:59.0700 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 19:31:59.0700 TRACE       {1} 
+2013-11-23 19:31:59.0930 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 19:31:59.1000 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 19:31:59.1000 TRACE       {1} 
+2013-11-23 19:31:59.1220 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 19:31:59.1291 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 19:31:59.1291 TRACE       {1} 
+2013-11-23 19:31:59.1521 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 19:31:59.1591 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 19:31:59.1591 TRACE       {1} 
+2013-11-23 19:31:59.1841 TRACE Node outer HTML: <script>
+     // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+    </script> 
+2013-11-23 19:31:59.1921 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:59.2081 TRACE Node outer HTML: <script>
+    (function() {
+        $("<style type='text/css'> .coursera-reporter-link { display:inline-block;} </style>").appendTo("head");
+    })();
+    </script> 
+2013-11-23 19:31:59.2251 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:59.2251 TRACE Node outer HTML: <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "MML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script> 
+2013-11-23 19:31:59.2521 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:59.2521 TRACE Node outer HTML: <script type="text/javascript">
+(function () {
+
+  function loadMathJax() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://duqnjvq4jwr55.cloudfront.net/2.1/MathJax.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
+  window.loadOrRefreshMathJax = function(domId) {
+    if (window.MathJax) {
+      if (domId) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, domId]);
+      } else {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      }
+    } else {
+      loadMathJax();
+    }
+  }
+})();
+</script> 
+2013-11-23 19:31:59.2741 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:59.2941 TRACE Node outer HTML: <script type="text/javascript">
+        var site_base_url = "https:\/\/www.coursera.org\/";
+        var site_static_asset_url = "https:\/\/dt5zaw6a98blc.cloudfront.net\/site-static\/";
+        var spark_class_short_name = "compinvesting1";
+        var spark_class_id = 971169;
+        var spark_class_url = "\/compinvesting1-003";
+        var spark_signature_url = "https:\/\/class.coursera.org\/compinvesting1-003\/signature\/";
+
+        var course_strings_name = "Computational Investing, Part I";
+        var student_full_name = "James Lambeth";
+    </script> 
+2013-11-23 19:31:59.3061 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:31:59.3261 TRACE Node outer HTML: <script type="text/javascript">$(function() { loadOrRefreshMathJax();})</script> 
+2013-11-23 19:31:59.3461 ERROR Could not download resource:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 94
+2013-11-23 19:33:36.8554 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:33:36.8944 INFO Output root:	E:\Coursera 
+2013-11-23 19:33:36.8944 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:33:36.9194 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:33:36.9324 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:33:36.9444 DEBUG Creating directory structure. 
+2013-11-23 19:33:39.4777 DEBUG Loading static content from document. 
+2013-11-23 19:33:39.5047 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 19:33:39.5177 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 19:33:39.5297 TRACE       {1} 
+2013-11-23 19:33:39.5547 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.5667 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 19:33:39.5807 TRACE       {1} 
+2013-11-23 19:33:39.6028 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.6148 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 19:33:39.6278 TRACE       {1} 
+2013-11-23 19:33:39.6488 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.6608 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 19:33:39.6728 TRACE       {1} 
+2013-11-23 19:33:39.6948 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.7068 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 19:33:39.7188 TRACE       {1} 
+2013-11-23 19:33:39.7398 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.7518 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 19:33:39.7638 TRACE       {1} 
+2013-11-23 19:33:39.7848 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.7958 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 19:33:39.7958 TRACE       {1} 
+2013-11-23 19:33:39.8288 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 19:33:39.8288 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 19:33:39.8508 TRACE       {1} 
+2013-11-23 19:34:26.0356 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:34:26.0726 INFO Output root:	E:\Coursera 
+2013-11-23 19:34:26.0836 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:34:26.0836 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:34:26.1066 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:34:26.1176 DEBUG Creating directory structure. 
+2013-11-23 19:34:28.8210 DEBUG Loading static content from document. 
+2013-11-23 19:34:28.8470 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 19:34:28.8580 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 19:34:28.8580 TRACE       E:\Coursera\compinvesting1-003\resources\30b1d4db-f964-4974-8a2d-bf93908746a8 
+2013-11-23 19:34:28.8800 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 19:34:28.8910 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 19:34:28.8910 TRACE       E:\Coursera\compinvesting1-003\resources\623cfe96-ab6b-4410-a169-2b2301bb8860 
+2013-11-23 19:34:28.9120 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 19:34:28.9240 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 19:34:28.9350 TRACE       E:\Coursera\compinvesting1-003\resources\b7d128cf-92fc-466a-bf77-dc9ea9b637bc 
+2013-11-23 19:34:28.9350 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 19:34:28.9570 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 19:34:28.9680 TRACE       E:\Coursera\compinvesting1-003\resources\68dd3e41-dae1-43e4-ad48-6da95457e485 
+2013-11-23 19:34:28.9680 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 19:34:28.9900 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 19:34:29.0000 TRACE       E:\Coursera\compinvesting1-003\resources\ae366068-873c-41ae-a3ec-1d0bd1681a6c 
+2013-11-23 19:34:29.0000 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 19:34:29.0220 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 19:34:29.0330 TRACE       E:\Coursera\compinvesting1-003\resources\01bae6ee-b897-427c-8212-2def17bd7215 
+2013-11-23 19:34:29.0330 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 19:34:29.0540 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 19:34:29.0680 TRACE       E:\Coursera\compinvesting1-003\resources\a6c7ab4a-f2e8-492f-a111-192bab3eae04 
+2013-11-23 19:34:29.0790 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 19:34:29.0790 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 19:34:29.1000 TRACE       E:\Coursera\compinvesting1-003\resources\932ca725-d311-4a2e-a45f-1e1dd4540434 
+2013-11-23 19:35:01.5151 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:35:01.5521 INFO Output root:	E:\Coursera 
+2013-11-23 19:35:01.5641 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:35:01.5751 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:35:01.5871 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:35:01.5871 DEBUG Creating directory structure. 
+2013-11-23 19:35:04.0574 DEBUG Loading static content from document. 
+2013-11-23 19:35:04.0834 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 19:35:04.0834 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 19:35:04.1054 TRACE       E:\Coursera\compinvesting1-003\resources\05e85480-cc7d-4091-aac2-e4861d864ad0..js 
+2013-11-23 19:35:04.1164 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.1164 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 19:35:04.1384 TRACE       E:\Coursera\compinvesting1-003\resources\530fdfad-298e-4f5c-a948-853cc6f46860..js 
+2013-11-23 19:35:04.1494 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.1604 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 19:35:04.1604 TRACE       E:\Coursera\compinvesting1-003\resources\940725f9-7754-4c6e-889a-165f5ee78d77..js 
+2013-11-23 19:35:04.1824 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.1934 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 19:35:04.1934 TRACE       E:\Coursera\compinvesting1-003\resources\2ae29d32-5bcb-4ef7-93ee-b9c704629702..js 
+2013-11-23 19:35:04.2154 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.2264 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 19:35:04.2264 TRACE       E:\Coursera\compinvesting1-003\resources\90464ab5-b65d-463d-b018-0af91f50aa5d..js 
+2013-11-23 19:35:04.2485 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.2595 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 19:35:04.2705 TRACE       E:\Coursera\compinvesting1-003\resources\1715efdb-c9db-41b7-b9e8-1ad4c1fe8311..js 
+2013-11-23 19:35:04.2705 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.2925 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 19:35:04.3055 TRACE       E:\Coursera\compinvesting1-003\resources\9fc9df41-ba3e-422b-a2f2-f9082d2eb667..js 
+2013-11-23 19:35:04.3165 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 19:35:04.3165 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 19:35:04.3385 TRACE       E:\Coursera\compinvesting1-003\resources\56e76252-4a79-4cc7-838b-92a53aab6e7b..js 
+2013-11-23 19:36:39.8495 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 19:36:39.8865 INFO Output root:	E:\Coursera 
+2013-11-23 19:36:39.8985 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 19:36:39.8985 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 19:36:39.9215 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 19:36:39.9325 DEBUG Creating directory structure. 
+2013-11-23 19:36:42.1518 DEBUG Loading static content from document. 
+2013-11-23 19:36:42.1788 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 19:36:42.1788 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 19:36:42.2018 TRACE       E:\Coursera\compinvesting1-003\resources\816a507f-2452-4825-87af-1df05e580285.js 
+2013-11-23 19:36:42.2128 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.2238 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 19:36:42.2238 TRACE       E:\Coursera\compinvesting1-003\resources\3bed6f02-0413-402b-94c9-9421f923a68c.js 
+2013-11-23 19:36:42.2468 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.2578 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 19:36:42.2698 TRACE       E:\Coursera\compinvesting1-003\resources\584bd49b-e5e6-4f61-9126-7d18932a4936.js 
+2013-11-23 19:36:42.2698 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.2918 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 19:36:42.3028 TRACE       E:\Coursera\compinvesting1-003\resources\a30e9b5a-6db2-49db-a8ef-720928df7fba.js 
+2013-11-23 19:36:42.3028 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.3249 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 19:36:42.3359 TRACE       E:\Coursera\compinvesting1-003\resources\bfb6bcfb-a3d5-423e-ae52-419b5e113f9b.js 
+2013-11-23 19:36:42.3359 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.3579 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 19:36:42.3689 TRACE       E:\Coursera\compinvesting1-003\resources\f7664223-6dc0-4817-b4e5-79d35139b4ae.js 
+2013-11-23 19:36:42.3799 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.3799 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 19:36:42.4049 TRACE       E:\Coursera\compinvesting1-003\resources\1f018bc2-9109-4f26-8a17-35ddb706ebab.js 
+2013-11-23 19:36:42.4159 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 19:36:42.4269 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 19:36:42.4269 TRACE       E:\Coursera\compinvesting1-003\resources\f897f79b-3f56-42e2-9da9-2d876f00e66d.js 
+2013-11-23 20:56:05.6970 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 20:56:05.7350 INFO Output root:	E:\Coursera 
+2013-11-23 20:56:05.7470 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 20:56:05.7600 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 20:56:05.7600 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 20:56:05.7840 DEBUG Creating directory structure. 
+2013-11-23 20:56:09.1535 DEBUG Loading static content from document. 
+2013-11-23 20:56:09.1805 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 20:56:09.1935 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 20:56:09.1935 TRACE       E:\Coursera\compinvesting1-003\resources\13e5cb81-828f-4568-b154-bd908e197c20.js 
+2013-11-23 20:56:11.9478 TRACE File downloaded. 
+2013-11-23 20:56:11.9598 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 20:56:11.9728 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 20:56:11.9848 TRACE       E:\Coursera\compinvesting1-003\resources\3e04a19e-6f57-435e-9314-323195391a8a.js 
+2013-11-23 20:56:12.1618 TRACE File downloaded. 
+2013-11-23 20:56:12.1738 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 20:56:12.1738 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 20:56:12.1978 TRACE       E:\Coursera\compinvesting1-003\resources\4ff7dd4e-5c09-45c5-8843-2399b64276f4.js 
+2013-11-23 20:56:12.5379 TRACE File downloaded. 
+2013-11-23 20:56:12.5499 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 20:56:12.5619 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 20:56:12.5619 TRACE       E:\Coursera\compinvesting1-003\resources\7d6f6c6c-a583-4f5b-826f-6c7124de6e86.js 
+2013-11-23 20:56:12.8329 TRACE File downloaded. 
+2013-11-23 20:56:12.8449 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 20:56:12.8449 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 20:56:12.8689 TRACE       E:\Coursera\compinvesting1-003\resources\ecae34ea-2adc-4b39-b630-60fe3f46d8f6.js 
+2013-11-23 20:56:13.0560 TRACE File downloaded. 
+2013-11-23 20:56:13.0680 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 20:56:13.0800 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 20:56:13.0920 TRACE       E:\Coursera\compinvesting1-003\resources\7547bbfc-4e89-44ba-92f8-9d3302b1edde.js 
+2013-11-23 20:56:13.2800 TRACE File downloaded. 
+2013-11-23 20:56:13.2800 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 20:56:13.3050 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 20:56:13.3170 TRACE       E:\Coursera\compinvesting1-003\resources\776240eb-776a-4314-a3d9-af901ea91934.js 
+2013-11-23 20:56:14.2701 TRACE File downloaded. 
+2013-11-23 20:56:14.2831 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 20:56:14.2951 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 20:56:14.2951 TRACE       E:\Coursera\compinvesting1-003\resources\1b6e7b9f-b42e-4d35-ab20-05328e20c572.js 
+2013-11-23 20:56:14.6782 TRACE File downloaded. 
+2013-11-23 20:57:08.6740 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 20:57:08.7130 INFO Output root:	E:\Coursera 
+2013-11-23 20:57:08.7270 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 20:57:08.7400 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 20:57:08.7530 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 20:57:08.7840 DEBUG Creating directory structure. 
+2013-11-23 20:57:11.0473 DEBUG Loading static content from document. 
+2013-11-23 20:57:11.0753 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 20:57:11.0873 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 20:57:11.0993 TRACE       E:\Coursera\compinvesting1-003\resources\1db0090b-b03c-4292-b235-f8c423d99d1d.js 
+2013-11-23 20:57:12.8675 TRACE File downloaded. 
+2013-11-23 20:57:12.8795 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 20:57:12.8915 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 20:57:12.9035 TRACE       E:\Coursera\compinvesting1-003\resources\d45bc219-e6b9-4704-b250-fce05e8c2176.js 
+2013-11-23 20:57:13.0765 TRACE File downloaded. 
+2013-11-23 20:57:13.0765 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 20:57:13.1005 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 20:57:13.1125 TRACE       E:\Coursera\compinvesting1-003\resources\609b1a29-2d97-4ff0-9e50-501435761689.js 
+2013-11-23 20:57:13.3116 TRACE File downloaded. 
+2013-11-23 20:57:13.3236 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 20:57:13.3236 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 20:57:13.3486 TRACE       E:\Coursera\compinvesting1-003\resources\341b5269-5139-43f1-a7ce-8c87f79d51b7.js 
+2013-11-23 20:57:13.5166 TRACE File downloaded. 
+2013-11-23 20:57:13.5286 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 20:57:13.5286 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 20:57:13.5536 TRACE       E:\Coursera\compinvesting1-003\resources\451cf5f6-ca43-4ea8-836d-85d13deca1f2.js 
+2013-11-23 20:57:13.7216 TRACE File downloaded. 
+2013-11-23 20:57:13.7336 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 20:57:13.7456 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 20:57:13.7456 TRACE       E:\Coursera\compinvesting1-003\resources\b01aa535-8998-4b56-beb2-55bbb6dc7873.js 
+2013-11-23 20:57:13.9286 TRACE File downloaded. 
+2013-11-23 20:57:13.9406 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 20:57:13.9526 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 20:57:13.9657 TRACE       E:\Coursera\compinvesting1-003\resources\d4bd16a6-3e6e-4881-9495-d113028b6bf1.js 
+2013-11-23 20:57:14.1317 TRACE File downloaded. 
+2013-11-23 20:57:14.1447 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 20:57:14.1567 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 20:57:14.1687 TRACE       E:\Coursera\compinvesting1-003\resources\252b7421-a6dc-468d-b508-59d6c207a3b3.js 
+2013-11-23 20:57:14.3347 TRACE File downloaded. 
+2013-11-23 21:00:22.2124 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 21:00:22.2505 INFO Output root:	E:\Coursera 
+2013-11-23 21:00:22.2645 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 21:00:22.2775 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 21:00:22.2905 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 21:00:22.3175 DEBUG Creating directory structure. 
+2013-11-23 21:00:25.3328 DEBUG Loading static content from document. 
+2013-11-23 21:00:25.3608 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 21:00:25.3608 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 21:00:25.3848 TRACE       E:\Coursera\compinvesting1-003\static\65353d23-3f3d-4b39-a117-153feac73d79.js 
+2013-11-23 21:00:27.4891 TRACE File downloaded. 
+2013-11-23 21:00:27.5021 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 21:00:27.5141 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 21:00:27.5141 TRACE       E:\Coursera\compinvesting1-003\static\4cc3b2a9-67fc-4ece-8233-8304f149e050.js 
+2013-11-23 21:00:27.6931 TRACE File downloaded. 
+2013-11-23 21:00:27.7061 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 21:00:27.7181 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 21:00:27.7181 TRACE       E:\Coursera\compinvesting1-003\static\6149ad2e-c87b-42bf-812a-35d5d82df830.js 
+2013-11-23 21:00:27.8972 TRACE File downloaded. 
+2013-11-23 21:00:27.9102 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 21:00:27.9222 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 21:00:27.9352 TRACE       E:\Coursera\compinvesting1-003\static\e740c228-499c-4ee7-8d09-a364ce5cb7db.js 
+2013-11-23 21:00:28.1032 TRACE File downloaded. 
+2013-11-23 21:00:28.1152 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 21:00:28.1282 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 21:00:28.1402 TRACE       E:\Coursera\compinvesting1-003\static\978928b1-bdb8-4814-aa07-c1cf15ec022e.js 
+2013-11-23 21:00:28.3092 TRACE File downloaded. 
+2013-11-23 21:00:28.3092 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 21:00:28.3342 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 21:00:28.3472 TRACE       E:\Coursera\compinvesting1-003\static\704bd3e2-fffe-41d5-b418-7ddfcea734f2.js 
+2013-11-23 21:00:28.6013 TRACE File downloaded. 
+2013-11-23 21:00:28.6143 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 21:00:28.6263 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 21:00:28.6393 TRACE       E:\Coursera\compinvesting1-003\static\121aaabd-c6aa-46cc-b5ac-42b0ec64565f.js 
+2013-11-23 21:00:28.8293 TRACE File downloaded. 
+2013-11-23 21:00:28.8423 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 21:00:28.8553 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 21:00:28.8553 TRACE       E:\Coursera\compinvesting1-003\static\637784df-6d7b-42ac-a358-28241398b9b7.js 
+2013-11-23 21:00:29.0383 TRACE File downloaded. 
+2013-11-23 21:00:29.0503 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-23 21:00:29.0633 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-23 21:00:29.0763 TRACE       E:\Coursera\compinvesting1-003\static\bda2a0f9-b3fb-43d0-9ac2-43bc9f3cf8d9.css 
+2013-11-23 21:00:31.5646 TRACE File downloaded. 
+2013-11-23 21:00:31.5766 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-23 21:00:31.5896 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-23 21:00:31.5896 TRACE       E:\Coursera\compinvesting1-003\static\2847f0c9-eee6-4165-b7f8-079143d42688.css 
+2013-11-23 21:00:32.9978 TRACE File downloaded. 
+2013-11-23 21:03:23.6544 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 21:03:23.6754 INFO Output root:	E:\Coursera 
+2013-11-23 21:03:23.6874 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 21:03:23.6874 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 21:03:23.6874 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 21:03:23.7074 ERROR An error occured deleting directory: E:\Coursera\compinvesting1-003 System.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in e:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 169
+2013-11-23 21:03:23.7074 ERROR Error cleaning output directory. Exiting. 
+2013-11-23 21:03:46.7153 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 21:03:46.7443 INFO Output root:	E:\Coursera 
+2013-11-23 21:03:46.7443 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 21:03:46.7443 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 21:03:46.7443 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 21:03:46.7443 DEBUG Creating directory structure. 
+2013-11-23 21:03:49.4907 DEBUG Loading static content from document. 
+2013-11-23 21:03:49.5087 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 21:03:49.5217 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 21:03:49.5217 TRACE       E:\Coursera\compinvesting1-003\static\55057542-36eb-49ac-a29c-67ba1c074525.js 
+2013-11-23 21:03:52.2030 TRACE File downloaded. 
+2013-11-23 21:03:52.2030 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 21:03:52.2280 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 21:03:52.2400 TRACE       E:\Coursera\compinvesting1-003\static\14cb1e26-8762-4562-b077-d4471c25536e.js 
+2013-11-23 21:03:52.6711 TRACE File downloaded. 
+2013-11-23 21:03:52.6711 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 21:03:52.6961 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 21:03:52.7081 TRACE       E:\Coursera\compinvesting1-003\static\f867d17e-45f0-4e02-86a2-1cf23d02e590.js 
+2013-11-23 21:03:53.6442 TRACE File downloaded. 
+2013-11-23 21:03:53.6562 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 21:03:53.6692 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 21:03:53.6692 TRACE       E:\Coursera\compinvesting1-003\static\32e6f5cb-075d-4ca4-b05c-44dd92b385c7.js 
+2013-11-23 21:03:54.0452 TRACE File downloaded. 
+2013-11-23 21:03:54.0452 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 21:03:54.0702 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 21:03:54.0822 TRACE       E:\Coursera\compinvesting1-003\static\7102b825-0cd7-4cf0-b50a-35fe270c582a.js 
+2013-11-23 21:03:54.4153 TRACE File downloaded. 
+2013-11-23 21:03:54.4273 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 21:03:54.4403 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 21:03:54.4523 TRACE       E:\Coursera\compinvesting1-003\static\395cace3-626f-4dc2-8a55-e1fa51400b20.js 
+2013-11-23 21:03:54.9603 TRACE File downloaded. 
+2013-11-23 21:03:54.9723 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 21:03:54.9843 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 21:03:54.9973 TRACE       E:\Coursera\compinvesting1-003\static\19e49d0e-cf91-4c8c-94d1-927faa750335.js 
+2013-11-23 21:03:55.3594 TRACE File downloaded. 
+2013-11-23 21:03:55.3714 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 21:03:55.3714 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 21:03:55.3964 TRACE       E:\Coursera\compinvesting1-003\static\e5744876-beee-4efd-b10b-e26ec3b39c5d.js 
+2013-11-23 21:03:55.7314 TRACE File downloaded. 
+2013-11-23 21:03:55.7444 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-23 21:03:55.7444 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-23 21:03:55.7694 TRACE       E:\Coursera\compinvesting1-003\static\60d6c755-4c65-4d28-9357-a3ee6cea255d.css 
+2013-11-23 21:03:57.3286 TRACE File downloaded. 
+2013-11-23 21:03:57.3406 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-23 21:03:57.3536 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-23 21:03:57.3536 TRACE       E:\Coursera\compinvesting1-003\static\df30d6e9-47c7-4c1d-8f9e-6edbff963fa4.css 
+2013-11-23 21:03:58.7928 TRACE File downloaded. 
+2013-11-23 21:05:52.2562 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 21:05:52.2772 INFO Output root:	E:\Coursera 
+2013-11-23 21:05:52.2772 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 21:05:52.2922 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 21:05:52.2922 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 21:05:52.3182 DEBUG Creating directory structure. 
+2013-11-23 21:05:55.5456 DEBUG Loading static content from document. 
+2013-11-23 21:05:55.5636 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 21:05:55.5766 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 21:05:55.5886 TRACE       E:\Coursera\compinvesting1-003\static\ebe3621c-3147-4885-a6b2-d5084820d4dc.js 
+2013-11-23 21:05:57.5588 TRACE File downloaded. 
+2013-11-23 21:05:57.5708 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 21:05:57.5838 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 21:05:57.5838 TRACE       E:\Coursera\compinvesting1-003\static\74a22465-c473-4158-adda-c823dd07758d.js 
+2013-11-23 21:05:57.7649 TRACE File downloaded. 
+2013-11-23 21:05:57.7779 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 21:05:57.7899 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 21:05:57.8019 TRACE       E:\Coursera\compinvesting1-003\static\950c20cf-f053-4a8b-a746-622f4b510f84.js 
+2013-11-23 21:05:57.9709 TRACE File downloaded. 
+2013-11-23 21:05:57.9709 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 21:05:57.9969 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 21:05:58.0089 TRACE       E:\Coursera\compinvesting1-003\static\cf998497-df75-4dc6-9d44-11f6ed20863c.js 
+2013-11-23 21:05:58.1799 TRACE File downloaded. 
+2013-11-23 21:05:58.1919 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 21:05:58.2049 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 21:05:58.2049 TRACE       E:\Coursera\compinvesting1-003\static\53d10829-3c5c-44c7-bf52-7dfb447ae727.js 
+2013-11-23 21:05:58.4029 TRACE File downloaded. 
+2013-11-23 21:05:58.4149 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 21:05:58.4280 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 21:05:58.4400 TRACE       E:\Coursera\compinvesting1-003\static\0548d09b-73bb-492a-ad07-73b4424c65da.js 
+2013-11-23 21:05:58.7010 TRACE File downloaded. 
+2013-11-23 21:05:58.7130 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 21:05:58.7260 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 21:05:58.7390 TRACE       E:\Coursera\compinvesting1-003\static\3f437ac3-6ec2-4226-89f8-b99218d7aa57.js 
+2013-11-23 21:05:58.9120 TRACE File downloaded. 
+2013-11-23 21:05:58.9250 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 21:05:58.9250 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 21:05:58.9500 TRACE       E:\Coursera\compinvesting1-003\static\ed552ef8-962e-4094-bfdf-1a0c8e18d4c0.js 
+2013-11-23 21:05:59.1240 TRACE File downloaded. 
+2013-11-23 21:05:59.1360 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-23 21:05:59.1500 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-23 21:05:59.1680 TRACE       E:\Coursera\compinvesting1-003\static\bf84af7d-53f2-4be6-a1d6-659ee1991c2c.css 
+2013-11-23 21:05:59.8771 TRACE File downloaded. 
+2013-11-23 21:05:59.8901 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-23 21:05:59.9081 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-23 21:05:59.9081 TRACE       E:\Coursera\compinvesting1-003\static\787b99ae-e25c-4091-b143-ec8bab4bca28.css 
+2013-11-23 21:06:00.8043 TRACE File downloaded. 
+2013-11-23 21:06:29.1358 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-23 21:06:29.1558 INFO Output root:	E:\Coursera 
+2013-11-23 21:06:29.1558 DEBUG Output path:	E:\Coursera\compinvesting1-003 
+2013-11-23 21:06:29.1708 INFO Start cleaning directory E:\Coursera\compinvesting1-003 
+2013-11-23 21:06:29.1708 DEBUG Deleting E:\Coursera\compinvesting1-003 
+2013-11-23 21:06:29.2028 DEBUG Creating directory structure. 
+2013-11-23 21:06:32.0472 DEBUG Loading static content from document. 
+2013-11-23 21:06:32.0652 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-23 21:06:32.0782 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-23 21:06:32.0902 TRACE       E:\Coursera\compinvesting1-003\static\34dd25d1-0f26-444f-9810-1064899bdc51.js 
+2013-11-23 21:06:34.3225 TRACE File downloaded. 
+2013-11-23 21:06:34.3355 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-23 21:06:34.3355 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-23 21:06:34.3605 TRACE       E:\Coursera\compinvesting1-003\static\9949a953-8562-442e-b35e-55e396704b6b.js 
+2013-11-23 21:06:34.5285 TRACE File downloaded. 
+2013-11-23 21:06:34.5405 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-23 21:06:34.5535 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-23 21:06:34.5535 TRACE       E:\Coursera\compinvesting1-003\static\ddc4af83-afbb-4fef-ac8d-c182a3361370.js 
+2013-11-23 21:06:34.8366 TRACE File downloaded. 
+2013-11-23 21:06:34.8496 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-23 21:06:34.8496 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-23 21:06:34.8746 TRACE       E:\Coursera\compinvesting1-003\static\84c6716c-5302-4375-949f-f9d1e8097e48.js 
+2013-11-23 21:06:35.0456 TRACE File downloaded. 
+2013-11-23 21:06:35.0586 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-23 21:06:35.0716 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-23 21:06:35.0836 TRACE       E:\Coursera\compinvesting1-003\static\8f43efbf-599a-482a-907c-705f28de219e.js 
+2013-11-23 21:06:35.2626 TRACE File downloaded. 
+2013-11-23 21:06:35.2746 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-23 21:06:35.2876 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-23 21:06:35.2876 TRACE       E:\Coursera\compinvesting1-003\static\564ba895-04d9-43ac-b45c-9a2f48b945fe.js 
+2013-11-23 21:06:35.4706 TRACE File downloaded. 
+2013-11-23 21:06:35.4836 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-23 21:06:35.4956 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-23 21:06:35.5086 TRACE       E:\Coursera\compinvesting1-003\static\e360cec8-37e6-47aa-87b6-a2ee32a26c34.js 
+2013-11-23 21:06:35.6807 TRACE File downloaded. 
+2013-11-23 21:06:35.6937 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-23 21:06:35.6937 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-23 21:06:35.7187 TRACE       E:\Coursera\compinvesting1-003\static\d725d03c-9c43-4a28-a736-4aae5f986d1b.js 
+2013-11-23 21:06:35.8937 TRACE File downloaded. 
+2013-11-23 21:06:35.9057 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-23 21:06:35.9197 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-23 21:06:35.9327 TRACE       E:\Coursera\compinvesting1-003\static\02739b78-af7d-4ff1-a2b1-2894f6414cbb.css 
+2013-11-23 21:06:36.7078 TRACE File downloaded. 
+2013-11-23 21:06:36.7078 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-23 21:06:36.7388 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-23 21:06:36.7388 TRACE       E:\Coursera\compinvesting1-003\static\cd28bdba-6d20-46b9-bd5b-c61d4c1ac2fb.css 
+2013-11-23 21:06:37.6799 TRACE File downloaded. 

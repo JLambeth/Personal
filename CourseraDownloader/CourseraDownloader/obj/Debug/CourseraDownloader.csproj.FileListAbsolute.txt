@@ -1,0 +1,11 @@
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\CourseraDownloader.exe
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\CourseraDownloader.pdb
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\HtmlAgilityPack.dll
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\HtmlAgilityPack.pdb
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\HtmlAgilityPack.xml
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\CourseraDownloader.csprojResolveAssemblyReference.cache
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\CourseraDownloader.exe
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\CourseraDownloader.pdb
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.config
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.dll
+E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.xml
