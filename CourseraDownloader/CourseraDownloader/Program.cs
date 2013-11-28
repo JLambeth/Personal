@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using NLog;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -13,19 +14,26 @@ namespace CourseraDownloader
     {
 
         private static CookieContainer cookies;
-        static Logger logger;
-        
+        private static Logger logger;
+
+        private static Hashtable links;
+
+        private static string outputDirectory;
+
         static void Main(string[] args)
         {
 
+
             logger = LogManager.GetCurrentClassLogger();
+
+            links = new Hashtable();
 
             string courseId = "compinvesting1-003";
 
             logger.Info("Starting logger for CourseId: {0}", courseId);
 
-            string outputRoot = @"E:\Coursera";
-            string outputDirectory = Path.Combine(outputRoot, courseId);
+            string outputRoot = @"C:\Coursera";
+            outputDirectory = Path.Combine(outputRoot, courseId);
 
             logger.Info("Output root:\t{0}", outputRoot);
             logger.Debug("Output path:\t{0}", outputDirectory);
@@ -42,9 +50,11 @@ namespace CourseraDownloader
 
             cookies.Add(new Cookie("CAUTH", "CAUTH=rOW2CeRiLNyXtRL4YCVynx8HmQFF5iuqo0QW34FpCv3-CNDUgOLSUsiL49wTZ0hQB0DrnacH4XGuoSDXVw1xNg.4icwuSn2_eIWxA8ZzTdLqA.LLIbVkqYGUDSFDpVFXV26_8VRyWsUPw6KvfrhNcRpsDEg7ybal7tRvwVN_pamKdUOgDl5Jht9-bLRNZqmX7peZ7enxlXQ4FQDb6liosj0gr_lC6v63W4HZid6rnWwK0aQL7b_Ru4RLp_XBSfKwhMyLH7eaa0a2SzQz7VvJ0gaVU", "/", "class.coursera.org"));
 
-            HtmlDocument document = GetPage(String.Format("https://class.coursera.org/{0}", courseId));
+            string rootPage = String.Format("https://class.coursera.org/{0}/class/index", courseId);
 
-
+            HtmlDocument document = GetPage(rootPage);
+            
+            links.Add(GetUrlWithoutAnchor(rootPage), "index.html");
 
             if (!DownloadStaticContent(ref document, Path.Combine(outputDirectory, "static")))
             {
@@ -66,6 +76,11 @@ namespace CourseraDownloader
 
 
             }
+
+            RemoveTopBar(ref document);
+            StripJavaScript(ref document);
+            ReplaceLinks(ref document);
+
 
 
 
@@ -90,19 +105,21 @@ namespace CourseraDownloader
                 try
                 {
 
-                    string fileName = Path.Combine(resourceDir, String.Format("{0}.js", Guid.NewGuid().ToString()));
                     string scriptUrl = node.Attributes["src"].Value;
+                    string fileName;
 
                     logger.Trace("Downloading {0}", scriptUrl);
-                    logger.Trace("      {0}", fileName);
 
-                    if (DownloadFile(scriptUrl, fileName))
+                    if ((fileName = DownloadFile(scriptUrl, Path.Combine(outputDirectory, "resources"))) != null)
                     {
 
-                        logger.Trace("File downloaded.");
-                        node.Attributes["src"].Value = String.Format("static/", Path.GetFileName(fileName));
+                        links.Add(scriptUrl, String.Format("resources/{0}", fileName));
+
+                        logger.Trace("      File downloaded: {0}", Path.Combine(outputDirectory, "resources", fileName));
+                        node.Attributes["src"].Value = String.Format("resources/{0}", fileName);
 
                     }
+
 
                 }
                 catch (Exception e)
@@ -122,17 +139,52 @@ namespace CourseraDownloader
                 try
                 {
 
-                    string fileName = Path.Combine(resourceDir, String.Format("{0}.css", Guid.NewGuid().ToString()));
+
                     string scriptUrl = node.Attributes["href"].Value;
+                    string fileName;
 
                     logger.Trace("Downloading {0}", scriptUrl);
-                    logger.Trace("      {0}", fileName);
 
-                    if (DownloadFile(scriptUrl, fileName))
+                    if ((fileName = DownloadFile(scriptUrl, Path.Combine(outputDirectory, "resources"))) != null)
                     {
 
-                        logger.Trace("File downloaded.");
-                        node.Attributes["href"].Value = String.Format("static/{0}", Path.GetFileName(fileName));
+                        links.Add(scriptUrl, String.Format("resources/{0}", fileName));
+
+                        logger.Trace("      File downloaded: {0}", Path.Combine(outputDirectory, "resources", fileName));
+                        node.Attributes["href"].Value = String.Format("resources/{0}", fileName);
+
+                    }
+
+                }
+                catch (Exception e)
+                {
+
+                    logger.ErrorException("Could not download static content: ", e);
+
+                }
+
+            }
+
+            foreach (HtmlNode node in document.DocumentNode.SelectNodes("//img[@src]"))
+            {
+
+                logger.Trace("Node outer HTML: {0}", node.OuterHtml);
+
+                try
+                {
+
+                    string scriptUrl = node.Attributes["src"].Value;
+                    string fileName;
+
+                    logger.Trace("Downloading {0}", scriptUrl);
+
+                    if ((fileName = DownloadFile(scriptUrl, Path.Combine(outputDirectory, "images"))) != null)
+                    {
+
+                        links.Add(scriptUrl, String.Format("images/{0}", fileName));
+
+                        logger.Trace("      File downloaded: {0}", Path.Combine(outputDirectory, "images", fileName));
+                        node.Attributes["src"].Value = String.Format("images/{0}", fileName);
 
                     }
 
@@ -166,7 +218,8 @@ namespace CourseraDownloader
             try
             {
 
-                Directory.Delete(outputDirectory, true);
+                if(Directory.Exists(outputDirectory))
+                    Directory.Delete(outputDirectory, true);
 
             }
             catch (Exception e)
@@ -184,6 +237,7 @@ namespace CourseraDownloader
 
                 Directory.CreateDirectory(Path.Combine(outputDirectory, "static"));
                 Directory.CreateDirectory(Path.Combine(outputDirectory, "resources"));
+                Directory.CreateDirectory(Path.Combine(outputDirectory, "images"));
 
             }
             catch (Exception e)
@@ -232,8 +286,10 @@ namespace CourseraDownloader
 
         }
 
-        public static bool DownloadFile(string url, string outputPath)
+        public static string DownloadFile(string url, string outputPath)
         {
+
+            string fileName = null;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
@@ -244,19 +300,82 @@ namespace CourseraDownloader
             request.CookieContainer = cookies;
 
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            Stream responseStream = response.GetResponseStream();
 
-            using (StreamReader streamReader = new StreamReader(responseStream))
-            using (StreamWriter streamWriter = new StreamWriter(outputPath))
+            string fileExtension = (Path.HasExtension(response.ResponseUri.AbsolutePath) ? Path.GetExtension(response.ResponseUri.AbsolutePath).Substring(1) : "html");
+
+            fileName = string.Format("{0}.{1}", Guid.NewGuid().ToString(), fileExtension);
+
+            using (Stream responseStream = response.GetResponseStream())
+            using (FileStream streamWriter = new FileStream(Path.Combine(outputPath, fileName), FileMode.Create))
             {
 
-                streamWriter.Write(streamReader.ReadToEnd());
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+
+                while ((bytesRead = responseStream.Read(buffer, 0, buffer.Length)) != 0)
+                    streamWriter.Write(buffer, 0, bytesRead);
 
             }
 
             response.Close();
 
-            return true;
+            return fileName;
+
+        }
+
+        public static void StripJavaScript(ref HtmlDocument document)
+        {
+
+            foreach (HtmlNode node in document.DocumentNode.SelectNodes("//script"))
+            {
+
+                node.Remove();
+
+            }
+
+        }
+
+        public static void ReplaceLinks(ref HtmlDocument document)
+        {
+
+            foreach (HtmlNode node in document.DocumentNode.SelectNodes("//a[@href]"))
+            {
+
+                string linkHref = node.Attributes["href"].Value;
+
+                if (links.ContainsKey(linkHref))
+                    node.Attributes["href"].Value = links[linkHref].ToString();
+            }
+
+        }
+
+        public static string GetUrlWithoutAnchor(string url)
+        {
+
+            if (url.Contains('#'))
+                return url.Substring(0, url.IndexOf('#'));
+
+            return url;
+
+        }
+
+        public static void RemoveTopBar(ref HtmlDocument document)
+        {
+
+            try
+            {
+
+                document.DocumentNode.SelectSingleNode("//div[@role='banner']").Remove();
+
+            }
+            catch (Exception e)
+            {
+
+                logger.ErrorException("Could not remove top banner.", e);
+
+            }
+
+
 
         }
 

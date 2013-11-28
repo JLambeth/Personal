@@ -1,0 +1,1283 @@
+2013-11-24 11:05:22.7286 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:05:22.7637 INFO Output root:	C:\Coursera 
+2013-11-24 11:05:22.7637 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:05:22.7637 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:05:22.7637 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:05:22.7907 ERROR An error occured deleting directory: C:\Coursera\compinvesting1-003 System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Coursera\compinvesting1-003'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 169
+2013-11-24 11:05:22.8677 ERROR Error cleaning output directory. Exiting. 
+2013-11-24 11:06:06.1954 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:06:06.2294 INFO Output root:	C:\Coursera 
+2013-11-24 11:06:06.2294 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:06:06.2294 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:06:06.2294 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:06:06.2514 ERROR An error occured deleting directory: C:\Coursera\compinvesting1-003 System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Coursera\compinvesting1-003'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CourseraDownloader.Program.CleanOutputDirectory(String outputDirectory) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 169
+2013-11-24 11:06:06.2514 ERROR Error cleaning output directory. Exiting. 
+2013-11-24 11:07:12.4135 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:07:12.4375 INFO Output root:	C:\Coursera 
+2013-11-24 11:07:12.4375 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:07:12.4375 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:07:12.4495 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:07:12.4495 DEBUG Creating directory structure. 
+2013-11-24 11:07:15.5041 DEBUG Loading static content from document. 
+2013-11-24 11:07:15.5971 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:07:15.5971 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:07:15.5971 TRACE       C:\Coursera\compinvesting1-003\static\4c6106c9-e009-42ca-b0a6-285bbce6696b.js 
+2013-11-24 11:07:18.0356 TRACE File downloaded. 
+2013-11-24 11:07:18.0356 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:07:18.0356 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:07:18.0356 TRACE       C:\Coursera\compinvesting1-003\static\f8591b71-3ce1-4a2f-92ab-3eb33a303a87.js 
+2013-11-24 11:07:18.2306 TRACE File downloaded. 
+2013-11-24 11:07:18.2306 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:07:18.2306 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:07:18.2306 TRACE       C:\Coursera\compinvesting1-003\static\337d20d1-ca77-4ee3-8ab1-b3d824446f12.js 
+2013-11-24 11:07:18.4267 TRACE File downloaded. 
+2013-11-24 11:07:18.4267 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:07:18.4267 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:07:18.4267 TRACE       C:\Coursera\compinvesting1-003\static\d4255977-ef3d-42fb-8857-a710d8397295.js 
+2013-11-24 11:07:18.6427 TRACE File downloaded. 
+2013-11-24 11:07:18.6427 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:07:18.6427 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:07:18.6427 TRACE       C:\Coursera\compinvesting1-003\static\5e0815c9-c528-42f8-be35-a6138643441a.js 
+2013-11-24 11:07:18.8427 TRACE File downloaded. 
+2013-11-24 11:07:18.8427 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:07:18.8467 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:07:18.8467 TRACE       C:\Coursera\compinvesting1-003\static\ea103988-518d-4794-9dd8-d8155f4635c4.js 
+2013-11-24 11:07:19.0378 TRACE File downloaded. 
+2013-11-24 11:07:19.0378 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:07:19.0378 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:07:19.0378 TRACE       C:\Coursera\compinvesting1-003\static\27471a0b-a398-4376-9f2a-cb17f33312b8.js 
+2013-11-24 11:07:19.2408 TRACE File downloaded. 
+2013-11-24 11:07:19.2408 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:07:19.2408 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:07:19.2408 TRACE       C:\Coursera\compinvesting1-003\static\c58438ba-5235-4250-b2e3-62875acc6a3e.js 
+2013-11-24 11:07:19.4309 TRACE File downloaded. 
+2013-11-24 11:07:19.4479 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:07:19.4479 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 11:07:19.4479 TRACE       C:\Coursera\compinvesting1-003\static\360d59da-3b7e-4730-b2cb-854965131a76.css 
+2013-11-24 11:07:20.6971 TRACE File downloaded. 
+2013-11-24 11:07:20.6971 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 11:07:20.6971 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 11:07:20.6971 TRACE       C:\Coursera\compinvesting1-003\static\ad3dd2b7-7a5b-4c39-8659-8771958ed2d6.css 
+2013-11-24 11:07:22.1034 TRACE File downloaded. 
+2013-11-24 11:13:21.8752 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:13:21.9102 INFO Output root:	C:\Coursera 
+2013-11-24 11:13:21.9102 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:13:21.9102 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:13:21.9102 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:13:21.9102 DEBUG Creating directory structure. 
+2013-11-24 11:20:41.1752 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:20:41.2122 INFO Output root:	C:\Coursera 
+2013-11-24 11:20:41.2122 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:20:41.2122 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:20:41.2122 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:20:41.2122 DEBUG Creating directory structure. 
+2013-11-24 11:20:43.6642 DEBUG Loading static content from document. 
+2013-11-24 11:20:43.7592 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:20:43.7592 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:20:43.7592 TRACE       static/63eb2ee8-9d15-4d4d-af45-0faecf7b00fb.js 
+2013-11-24 11:20:44.9392 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\63eb2ee8-9d15-4d4d-af45-0faecf7b00fb.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:44.9392 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:20:44.9392 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:20:44.9392 TRACE       static/3aab58c1-82bb-49bf-a92d-75a59db2d863.js 
+2013-11-24 11:20:45.6822 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\3aab58c1-82bb-49bf-a92d-75a59db2d863.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:45.6822 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:20:45.6822 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:20:45.6822 TRACE       static/bcdc4271-ef36-4a93-a787-82fcb30669ca.js 
+2013-11-24 11:20:45.8962 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\bcdc4271-ef36-4a93-a787-82fcb30669ca.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:45.8962 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:20:45.8962 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:20:45.8962 TRACE       static/6279c266-6699-44b4-b306-2c7ccb3271fc.js 
+2013-11-24 11:20:46.1052 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\6279c266-6699-44b4-b306-2c7ccb3271fc.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:46.1052 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:20:46.1052 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:20:46.1092 TRACE       static/85df61d7-aad4-45a4-9ea3-059ff8980948.js 
+2013-11-24 11:20:46.3042 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\85df61d7-aad4-45a4-9ea3-059ff8980948.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:46.3042 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:20:46.3042 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:20:46.3042 TRACE       static/cb955997-f195-4ea6-82f9-2b367f9bf5a0.js 
+2013-11-24 11:20:46.5122 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\cb955997-f195-4ea6-82f9-2b367f9bf5a0.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:46.5122 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:20:46.5122 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:20:46.5162 TRACE       static/62a1805e-0aad-40c3-a111-a91847a16837.js 
+2013-11-24 11:20:46.7202 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\62a1805e-0aad-40c3-a111-a91847a16837.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:46.7202 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:20:46.7202 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:20:46.7202 TRACE       static/4a2bf784-aaa6-4c22-aab8-747959564578.js 
+2013-11-24 11:20:46.9402 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\4a2bf784-aaa6-4c22-aab8-747959564578.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:20:46.9572 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:20:46.9572 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 11:20:46.9572 TRACE       C:\Coursera\compinvesting1-003\static\cdd60c4d-fb87-46a6-a32a-1daeeac59568.css 
+2013-11-24 11:20:48.6392 TRACE File downloaded. 
+2013-11-24 11:20:48.6392 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 11:20:48.6392 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 11:20:48.6392 TRACE       C:\Coursera\compinvesting1-003\static\22ba341a-9a1f-47b6-8fe4-6bf2c2559b75.css 
+2013-11-24 11:20:50.0922 TRACE File downloaded. 
+2013-11-24 11:21:35.3852 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:21:35.4182 INFO Output root:	C:\Coursera 
+2013-11-24 11:21:35.4182 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:21:35.4182 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:21:35.4182 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:21:35.4182 DEBUG Creating directory structure. 
+2013-11-24 11:21:37.8182 DEBUG Loading static content from document. 
+2013-11-24 11:21:37.9142 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:21:37.9142 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:21:37.9142 TRACE       static/26b24b59-9e89-4d7b-ac75-390a70b51c74.js 
+2013-11-24 11:21:38.9602 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\26b24b59-9e89-4d7b-ac75-390a70b51c74.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:38.9602 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:21:38.9602 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:21:38.9602 TRACE       static/b46b62c4-89fa-4a02-b881-403e2f8e1a49.js 
+2013-11-24 11:21:39.7312 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\b46b62c4-89fa-4a02-b881-403e2f8e1a49.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:39.7312 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:21:39.7312 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:21:39.7312 TRACE       static/3e744f0c-c045-4479-9515-cfed08b3834c.js 
+2013-11-24 11:21:42.9492 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\3e744f0c-c045-4479-9515-cfed08b3834c.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:42.9782 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:21:42.9782 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:21:42.9782 TRACE       static/9411d319-7381-4aba-89db-737c850cfb87.js 
+2013-11-24 11:21:43.1972 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\9411d319-7381-4aba-89db-737c850cfb87.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:43.1972 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:21:43.1972 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:21:43.1972 TRACE       static/109144c2-5def-4553-9b60-80fcd16c08c4.js 
+2013-11-24 11:21:43.4592 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\109144c2-5def-4553-9b60-80fcd16c08c4.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:43.4592 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:21:43.4592 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:21:43.4592 TRACE       static/4e46aa66-54ea-4e54-a9f4-d6fba032b90f.js 
+2013-11-24 11:21:43.7672 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\4e46aa66-54ea-4e54-a9f4-d6fba032b90f.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:43.7672 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:21:43.7672 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:21:43.7672 TRACE       static/ab510c09-949b-4fc9-849f-aaa7a71d2144.js 
+2013-11-24 11:21:43.9782 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\ab510c09-949b-4fc9-849f-aaa7a71d2144.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:43.9782 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:21:43.9782 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:21:43.9822 TRACE       static/2b379476-3207-46fa-968e-53c61e07dc3f.js 
+2013-11-24 11:21:44.2772 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\2b379476-3207-46fa-968e-53c61e07dc3f.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 266
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:21:44.2782 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:21:44.2942 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 11:21:44.2942 TRACE       C:\Coursera\compinvesting1-003\static\4f4a3287-c303-40ca-a151-98f6dd0f5c28.css 
+2013-11-24 11:21:45.9712 TRACE File downloaded. 
+2013-11-24 11:21:45.9712 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 11:21:45.9712 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 11:21:45.9712 TRACE       C:\Coursera\compinvesting1-003\static\15922714-1ab0-41be-8024-ce5011b2bf7a.css 
+2013-11-24 11:21:47.5372 TRACE File downloaded. 
+2013-11-24 11:23:44.8462 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:23:44.8712 INFO Output root:	C:\Coursera 
+2013-11-24 11:23:44.8712 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:23:44.8712 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:23:44.8822 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:23:44.8822 DEBUG Creating directory structure. 
+2013-11-24 11:23:47.4532 DEBUG Loading static content from document. 
+2013-11-24 11:23:47.5502 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:23:47.5502 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:23:47.5502 TRACE       static/916c5b5c-d4e3-4e98-925f-9c9de216db92.js 
+2013-11-24 11:23:49.4232 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\916c5b5c-d4e3-4e98-925f-9c9de216db92.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 270
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:23:49.4232 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:23:49.4232 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:23:49.4232 TRACE       static/47b3c885-957f-4716-ab74-c5f320184aad.js 
+2013-11-24 11:23:50.9512 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\47b3c885-957f-4716-ab74-c5f320184aad.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 270
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:23:50.9792 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:23:50.9812 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:23:50.9812 TRACE       static/e699a0e8-9835-42dd-9256-70b334ff5e40.js 
+2013-11-24 11:23:51.3762 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\e699a0e8-9835-42dd-9256-70b334ff5e40.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 270
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:23:51.3762 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:23:51.3762 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:23:51.3762 TRACE       static/b66c7236-868b-40b9-98f4-4be70a6380c9.js 
+2013-11-24 11:23:51.7922 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\b66c7236-868b-40b9-98f4-4be70a6380c9.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 270
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:23:51.7922 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:23:51.7922 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:23:51.7922 TRACE       static/900d6c22-767d-4c38-86f8-08b378c76a4d.js 
+2013-11-24 11:23:52.2102 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\900d6c22-767d-4c38-86f8-08b378c76a4d.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 270
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:23:52.2102 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:23:52.2102 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:23:52.2102 TRACE       static/566d988c-1a42-4760-a7c6-7836ab759002.js 
+2013-11-24 11:23:52.6122 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\566d988c-1a42-4760-a7c6-7836ab759002.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 270
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:23:52.6122 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:23:52.6122 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:23:52.6122 TRACE       static/2a615e8c-2aec-418c-a66a-d2d64fa79d87.js 
+2013-11-24 11:24:05.4342 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:24:05.4592 INFO Output root:	C:\Coursera 
+2013-11-24 11:24:05.4592 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:24:05.4592 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:24:05.4592 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:24:05.4592 DEBUG Creating directory structure. 
+2013-11-24 11:24:07.8262 DEBUG Loading static content from document. 
+2013-11-24 11:24:07.9212 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:24:07.9222 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:24:07.9222 TRACE       static/2a9c5165-1b96-4ff7-aba0-d269a353d243.js 
+2013-11-24 11:24:08.8522 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\2a9c5165-1b96-4ff7-aba0-d269a353d243.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:08.8522 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:24:08.8522 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:24:08.8522 TRACE       static/17326670-1200-45e9-b88a-5ffd8a8bebf7.js 
+2013-11-24 11:24:09.5832 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\17326670-1200-45e9-b88a-5ffd8a8bebf7.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:09.5832 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:24:09.5832 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:24:09.5832 TRACE       static/90726f5e-9d43-4046-b43f-747ae01eac36.js 
+2013-11-24 11:24:09.7822 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\90726f5e-9d43-4046-b43f-747ae01eac36.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:09.7822 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:24:09.7822 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:24:09.7822 TRACE       static/3e380540-ca0a-4519-9fb4-8aa83ff36d17.js 
+2013-11-24 11:24:09.9862 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\3e380540-ca0a-4519-9fb4-8aa83ff36d17.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:09.9862 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:24:09.9862 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:24:09.9862 TRACE       static/f53600b7-b2ed-4524-a515-0273822413a8.js 
+2013-11-24 11:24:10.1912 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\f53600b7-b2ed-4524-a515-0273822413a8.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:10.1912 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:24:10.1912 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:24:10.1912 TRACE       static/6cfc5e86-4bb6-4bcb-b7f0-b5b7fa539b17.js 
+2013-11-24 11:24:10.3902 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\6cfc5e86-4bb6-4bcb-b7f0-b5b7fa539b17.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:10.3902 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:24:10.3902 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:24:10.3902 TRACE       static/9cc51571-4ff8-4cf1-ac2c-0f35b8a6f523.js 
+2013-11-24 11:24:10.5902 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\9cc51571-4ff8-4cf1-ac2c-0f35b8a6f523.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:10.5902 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:24:10.5902 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:24:10.5902 TRACE       static/4e0d69e7-6c81-401f-b534-9434b44e2e38.js 
+2013-11-24 11:24:11.6372 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\4e0d69e7-6c81-401f-b534-9434b44e2e38.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:11.6542 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:24:43.1142 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:24:43.1472 INFO Output root:	C:\Coursera 
+2013-11-24 11:24:43.1472 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:24:43.1472 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:24:43.1472 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:24:43.1472 DEBUG Creating directory structure. 
+2013-11-24 11:24:45.4152 DEBUG Loading static content from document. 
+2013-11-24 11:24:45.5112 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:24:45.5112 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:24:45.5112 TRACE       static/10175faa-d132-4159-93dc-62039558cb0b.js 
+2013-11-24 11:24:47.0762 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\10175faa-d132-4159-93dc-62039558cb0b.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:47.0762 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:24:47.0762 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:24:47.0762 TRACE       static/57095c81-28af-46e3-8316-056ada4993de.js 
+2013-11-24 11:24:47.8742 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\57095c81-28af-46e3-8316-056ada4993de.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:47.8742 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:24:47.8742 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:24:47.8742 TRACE       static/fab2dcdf-741b-4559-b0f5-733976a27220.js 
+2013-11-24 11:24:48.1922 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\fab2dcdf-741b-4559-b0f5-733976a27220.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:48.1922 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:24:48.1922 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:24:48.1922 TRACE       static/65db1363-d38d-4ead-b2b2-c113baebda44.js 
+2013-11-24 11:24:48.4992 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\65db1363-d38d-4ead-b2b2-c113baebda44.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:48.4992 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:24:48.4992 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:24:48.4992 TRACE       static/20a8d959-a637-425c-aa49-353cdd46758c.js 
+2013-11-24 11:24:48.8062 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\20a8d959-a637-425c-aa49-353cdd46758c.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:48.8072 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:24:48.8072 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:24:48.8072 TRACE       static/e04b4494-71c1-4b3e-a5a8-783e2a2e2330.js 
+2013-11-24 11:24:49.1122 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\e04b4494-71c1-4b3e-a5a8-783e2a2e2330.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:49.1122 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:24:49.1122 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:24:49.1122 TRACE       static/456e45a8-dd81-4933-a9de-4bed7471dac3.js 
+2013-11-24 11:24:49.4362 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\456e45a8-dd81-4933-a9de-4bed7471dac3.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:49.4362 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:24:49.4362 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:24:49.4362 TRACE       static/ed727f40-581d-4f9e-bd7e-eebe83c5c7d9.js 
+2013-11-24 11:24:49.7292 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\ed727f40-581d-4f9e-bd7e-eebe83c5c7d9.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:24:49.7452 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:25:01.7512 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 11:25:01.7512 TRACE       C:\Coursera\compinvesting1-003\2ff22c1c-bc31-417f-a9c5-ea1155114c69.css 
+2013-11-24 11:25:39.0152 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:25:39.0392 INFO Output root:	C:\Coursera 
+2013-11-24 11:25:39.0392 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:25:39.0392 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:25:39.0392 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:25:39.0552 DEBUG Creating directory structure. 
+2013-11-24 11:25:41.6592 DEBUG Loading static content from document. 
+2013-11-24 11:25:41.7542 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:25:41.7542 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:25:41.7542 TRACE       static/422a2ec2-8e5e-4605-8a5a-3afafe07819d.js 
+2013-11-24 11:25:42.8782 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\422a2ec2-8e5e-4605-8a5a-3afafe07819d.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:42.8782 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:25:42.8782 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:25:42.8782 TRACE       static/cd09e8e8-d7b1-436d-b60c-7ae620604edb.js 
+2013-11-24 11:25:43.6682 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\cd09e8e8-d7b1-436d-b60c-7ae620604edb.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:43.6702 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:25:43.6702 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:25:43.6702 TRACE       static/f01e5aad-e65b-44c3-8b48-860ee1348ab7.js 
+2013-11-24 11:25:44.0032 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\f01e5aad-e65b-44c3-8b48-860ee1348ab7.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:44.0032 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:25:44.0032 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:25:44.0032 TRACE       static/6ad96951-f0d6-4b01-9f9b-8b88855333c5.js 
+2013-11-24 11:25:44.3052 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\6ad96951-f0d6-4b01-9f9b-8b88855333c5.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:44.3052 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:25:44.3052 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:25:44.3092 TRACE       static/c1ce83bf-9300-4560-a22a-437672f88849.js 
+2013-11-24 11:25:44.6142 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\c1ce83bf-9300-4560-a22a-437672f88849.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:44.6142 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:25:44.6142 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:25:44.6142 TRACE       static/62db38ff-81fa-4021-996f-176329da5cee.js 
+2013-11-24 11:25:44.9202 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\62db38ff-81fa-4021-996f-176329da5cee.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:44.9202 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:25:44.9202 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:25:44.9202 TRACE       static/6d21db79-8f94-4bd6-9600-4cbf57f054bf.js 
+2013-11-24 11:25:45.2252 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\6d21db79-8f94-4bd6-9600-4cbf57f054bf.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:45.2252 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:25:45.2252 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:25:45.2252 TRACE       static/74866ded-d05d-4b75-8c7d-7fc43578af1c.js 
+2013-11-24 11:25:45.5262 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\74866ded-d05d-4b75-8c7d-7fc43578af1c.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 271
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:25:45.5422 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:25:59.6362 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 11:25:59.6362 TRACE       C:\Coursera\compinvesting1-003\static/dc8f8077-3297-4ceb-8a63-411d56b01bad.css 
+2013-11-24 11:26:01.4222 TRACE File downloaded. 
+2013-11-24 11:26:01.4222 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 11:26:03.5072 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 11:26:03.5072 TRACE       C:\Coursera\compinvesting1-003\static/f3543f56-1218-40d1-ba9d-f1f22d10551f.css 
+2013-11-24 11:26:05.1782 TRACE File downloaded. 
+2013-11-24 11:30:56.3499 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 11:30:56.3829 INFO Output root:	C:\Coursera 
+2013-11-24 11:30:56.3829 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 11:30:56.3829 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 11:30:56.3829 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 11:30:56.3829 DEBUG Creating directory structure. 
+2013-11-24 11:30:59.4652 DEBUG Loading static content from document. 
+2013-11-24 11:30:59.5632 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 11:30:59.5642 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 11:30:59.5642 TRACE       static/6137722c-177c-4f05-a3df-945a0cc81822.js 
+2013-11-24 11:31:00.7013 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\6137722c-177c-4f05-a3df-945a0cc81822.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:00.7043 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 11:31:00.7043 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 11:31:00.7043 TRACE       static/d0c74570-c5e7-4529-8b5a-5dc5b067e951.js 
+2013-11-24 11:31:01.3334 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\d0c74570-c5e7-4529-8b5a-5dc5b067e951.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:01.3334 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 11:31:01.3334 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 11:31:01.3334 TRACE       static/69f3ea14-ddf2-41e2-a22b-4643fb671901.js 
+2013-11-24 11:31:01.5404 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\69f3ea14-ddf2-41e2-a22b-4643fb671901.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:01.5404 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 11:31:01.5404 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 11:31:01.5404 TRACE       static/81c0decb-22db-4b70-b082-168c6e0163f8.js 
+2013-11-24 11:31:01.7674 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\81c0decb-22db-4b70-b082-168c6e0163f8.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:01.7674 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 11:31:01.7674 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 11:31:01.7674 TRACE       static/ae8a6640-a4e0-40f7-90d9-2b8b512204b7.js 
+2013-11-24 11:31:02.0585 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\ae8a6640-a4e0-40f7-90d9-2b8b512204b7.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:02.0605 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 11:31:02.0605 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 11:31:02.0605 TRACE       static/1fc544c9-7096-4971-9445-024cdca906d7.js 
+2013-11-24 11:31:02.2795 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\1fc544c9-7096-4971-9445-024cdca906d7.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:02.2795 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 11:31:02.2795 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 11:31:02.2795 TRACE       static/f99c7846-a670-4a5f-a071-6f7e2d40fa9b.js 
+2013-11-24 11:31:02.4835 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\f99c7846-a670-4a5f-a071-6f7e2d40fa9b.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:02.4835 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 11:31:02.4835 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 11:31:02.4835 TRACE       static/da43b14d-8177-47a4-b0e6-e2f71896e8b3.js 
+2013-11-24 11:31:02.7015 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\static\da43b14d-8177-47a4-b0e6-e2f71896e8b3.js'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 272
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 109
+2013-11-24 11:31:02.7175 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 11:32:00.7802 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 11:32:00.7802 TRACE       C:\Coursera\compinvesting1-003\static/3652546b-57a5-41e0-a12c-5044ace8f0b8.css 
+2013-11-24 11:32:02.2532 TRACE File downloaded. 
+2013-11-24 11:32:02.2532 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 11:32:02.2532 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 11:32:02.2532 TRACE       C:\Coursera\compinvesting1-003\static/43aa99a5-1dcd-437f-a81c-485fd8b6f57d.css 
+2013-11-24 13:43:56.8331 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 13:43:56.8701 INFO Output root:	C:\Coursera 
+2013-11-24 13:43:56.8701 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 13:43:56.8701 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 13:43:56.8701 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 13:43:56.8701 DEBUG Creating directory structure. 
+2013-11-24 13:43:59.2001 DEBUG Loading static content from document. 
+2013-11-24 13:43:59.2991 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 13:43:59.2991 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 13:43:59.2991 TRACE       static/87b57f2b-8dff-4202-8069-b39cbde6846e.js 
+2013-11-24 13:44:01.9131 TRACE File downloaded. 
+2013-11-24 13:44:01.9131 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 13:44:01.9131 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 13:44:01.9131 TRACE       static/fd2cbab3-035e-4ddf-b36f-337ad2c4a78f.js 
+2013-11-24 13:44:02.1101 TRACE File downloaded. 
+2013-11-24 13:44:02.1101 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 13:44:02.1101 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 13:44:02.1101 TRACE       static/770aeb8f-e6f4-4ab0-a54f-9c3a25ab292b.js 
+2013-11-24 13:44:02.3021 TRACE File downloaded. 
+2013-11-24 13:44:02.3021 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 13:44:02.3021 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 13:44:02.3021 TRACE       static/956618bc-1126-4eaa-9436-6e1065c49f2e.js 
+2013-11-24 13:44:02.4811 TRACE File downloaded. 
+2013-11-24 13:44:02.4811 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 13:44:02.4811 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 13:44:02.4811 TRACE       static/7b63ef68-702f-4de0-9533-e20c2b072b34.js 
+2013-11-24 13:44:02.6641 TRACE File downloaded. 
+2013-11-24 13:44:02.6641 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 13:44:02.6641 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 13:44:02.6671 TRACE       static/5ce7959d-818c-4e40-a7fb-2b21d445fc57.js 
+2013-11-24 13:44:02.8441 TRACE File downloaded. 
+2013-11-24 13:44:02.8441 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 13:44:02.8441 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 13:44:02.8441 TRACE       static/e5a35d30-1253-40b6-bdf4-4f808572f86c.js 
+2013-11-24 13:44:03.0241 TRACE File downloaded. 
+2013-11-24 13:44:03.0241 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 13:44:03.0261 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 13:44:03.0261 TRACE       static/06cdf75a-a35c-4ae8-8e65-ae85a8f8f531.js 
+2013-11-24 13:44:03.2041 TRACE File downloaded. 
+2013-11-24 13:44:03.2221 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 13:44:13.3781 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 13:44:13.3781 TRACE       C:\Coursera\compinvesting1-003\static/8cba1884-f478-4fd2-8c6f-0bb7327c26f6.css 
+2013-11-24 13:44:20.4601 TRACE File downloaded. 
+2013-11-24 13:44:20.4601 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 13:44:20.4601 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 13:44:20.4601 TRACE       C:\Coursera\compinvesting1-003\static/48b0f715-f214-4f03-9012-c65d7ce9bdbd.css 
+2013-11-24 13:44:21.6871 TRACE File downloaded. 
+2013-11-24 13:45:49.0832 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 13:45:49.1072 INFO Output root:	C:\Coursera 
+2013-11-24 13:45:49.1192 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 13:45:49.1192 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 13:45:49.1192 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 13:45:49.1192 DEBUG Creating directory structure. 
+2013-11-24 13:45:51.4284 DEBUG Loading static content from document. 
+2013-11-24 13:45:51.4484 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 13:45:51.4484 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 13:45:51.4484 TRACE       static/88bf3fd5-806e-4878-bcf3-c8b16837d212.js 
+2013-11-24 13:45:53.7956 TRACE File downloaded. 
+2013-11-24 13:45:53.7956 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 13:45:53.7956 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 13:45:53.7956 TRACE       static/3c0f5cc0-9b03-4f0e-bd28-ff51ce4a1c27.js 
+2013-11-24 13:45:54.0346 TRACE File downloaded. 
+2013-11-24 13:45:54.0346 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 13:45:54.0346 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 13:45:54.0346 TRACE       static/57837f1b-6526-405a-b988-19d76b10c5c9.js 
+2013-11-24 13:45:54.2597 TRACE File downloaded. 
+2013-11-24 13:45:54.2597 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 13:45:54.2597 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 13:45:54.2597 TRACE       static/9d202339-5e4d-4c2d-8a1a-d756d7c1df0d.js 
+2013-11-24 13:45:54.4567 TRACE File downloaded. 
+2013-11-24 13:45:54.4567 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 13:45:54.4567 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 13:45:54.4567 TRACE       static/169e9aff-fb08-4ef6-8f6a-907a1667bfa3.js 
+2013-11-24 13:45:54.6467 TRACE File downloaded. 
+2013-11-24 13:45:54.6467 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 13:45:54.6467 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 13:45:54.6467 TRACE       static/5202986a-b210-418e-8a38-66e4ef3d115f.js 
+2013-11-24 13:45:55.0017 TRACE File downloaded. 
+2013-11-24 13:45:55.0017 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 13:45:55.0017 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 13:45:55.0017 TRACE       static/44a6a356-5d15-4acb-85d2-ebb08fc0370a.js 
+2013-11-24 13:45:55.1988 TRACE File downloaded. 
+2013-11-24 13:45:55.1988 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 13:45:55.1988 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 13:45:55.1988 TRACE       static/4b7adc19-a0f5-4c75-9c53-e2f939248f75.js 
+2013-11-24 13:45:55.4068 TRACE File downloaded. 
+2013-11-24 13:45:55.4068 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 13:45:56.4129 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 13:45:56.4129 TRACE       C:\Coursera\compinvesting1-003\static/4afa1050-5c6a-4534-9dba-b61d8a4167b1.css 
+2013-11-24 13:45:59.4612 TRACE File downloaded. 
+2013-11-24 13:45:59.4612 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 13:45:59.4622 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 13:45:59.4622 TRACE       C:\Coursera\compinvesting1-003\static/161bd829-a903-4d80-8eaf-b8521e6a75e9.css 
+2013-11-24 13:46:00.5933 TRACE File downloaded. 
+2013-11-24 14:05:16.6151 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:05:16.6651 INFO Output root:	C:\Coursera 
+2013-11-24 14:05:16.6651 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:05:16.6651 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:05:16.6651 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:05:16.6751 DEBUG Creating directory structure. 
+2013-11-24 14:05:18.9391 DEBUG Loading static content from document. 
+2013-11-24 14:05:18.9601 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 14:05:18.9601 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 14:05:18.9601 TRACE       static/51598b6b-1636-49f3-b41a-691767ed0c64.js 
+2013-11-24 14:05:23.6881 TRACE File downloaded. 
+2013-11-24 14:05:23.6881 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 14:05:23.6881 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 14:05:23.6881 TRACE       static/be63cecb-d644-4a1c-b31c-0ec3ae592609.js 
+2013-11-24 14:05:23.8961 TRACE File downloaded. 
+2013-11-24 14:05:23.8971 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 14:05:23.8971 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 14:05:23.8971 TRACE       static/729730a6-72bd-4f6d-bb1a-8778520c5475.js 
+2013-11-24 14:05:24.0911 TRACE File downloaded. 
+2013-11-24 14:05:24.0911 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 14:05:24.0911 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 14:05:24.0911 TRACE       static/3afeada5-c66e-46ce-a9ce-7142cc75c31d.js 
+2013-11-24 14:05:24.2881 TRACE File downloaded. 
+2013-11-24 14:05:24.2881 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 14:05:24.2881 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 14:05:24.2881 TRACE       static/9946680e-7cf5-45c6-b302-efe2ae225fc3.js 
+2013-11-24 14:05:24.4851 TRACE File downloaded. 
+2013-11-24 14:05:24.4851 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 14:05:24.4851 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 14:05:24.4851 TRACE       static/96c3ea2f-4ccf-4963-b86b-da4b4bf43be2.js 
+2013-11-24 14:05:24.7091 TRACE File downloaded. 
+2013-11-24 14:05:24.7091 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 14:05:24.7091 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 14:05:24.7091 TRACE       static/f749de33-df4a-4cac-a7cb-5c156d10ac3b.js 
+2013-11-24 14:05:24.9101 TRACE File downloaded. 
+2013-11-24 14:05:24.9101 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 14:05:24.9111 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 14:05:24.9111 TRACE       static/2868f012-29b7-40c8-b7cb-4355b23348aa.js 
+2013-11-24 14:05:25.1231 TRACE File downloaded. 
+2013-11-24 14:05:25.1231 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 14:05:31.2341 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 14:05:31.2341 TRACE       C:\Coursera\compinvesting1-003\static/54c3184d-49d2-4b39-8868-457316f6d4d0.css 
+2013-11-24 14:05:33.7691 TRACE File downloaded. 
+2013-11-24 14:05:33.7691 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 14:05:33.7691 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 14:05:33.7711 TRACE       C:\Coursera\compinvesting1-003\static/24db7fea-ab93-4833-8340-c1bff7047aa0.css 
+2013-11-24 14:05:35.0911 TRACE File downloaded. 
+2013-11-24 14:06:54.4287 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:06:54.4957 INFO Output root:	C:\Coursera 
+2013-11-24 14:06:54.4957 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:06:54.5007 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:06:54.5007 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:06:54.5007 DEBUG Creating directory structure. 
+2013-11-24 14:06:56.7969 DEBUG Loading static content from document. 
+2013-11-24 14:06:56.8169 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 14:06:56.8169 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 14:06:56.8169 TRACE       static/b53ca172-37d7-482b-bac1-d933d9496bbd.js 
+2013-11-24 14:06:59.8092 TRACE File downloaded. 
+2013-11-24 14:06:59.8092 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 14:06:59.8092 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 14:06:59.8092 TRACE       static/c262f93d-4447-4d3d-b858-5982b62ac9dc.js 
+2013-11-24 14:07:00.0702 TRACE File downloaded. 
+2013-11-24 14:07:00.0702 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 14:07:00.0702 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 14:07:00.0702 TRACE       static/db0d6f3a-43c4-4c1c-a1c7-30067ef9b1ad.js 
+2013-11-24 14:07:00.2663 TRACE File downloaded. 
+2013-11-24 14:07:00.2663 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 14:07:00.2663 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 14:07:00.2663 TRACE       static/11f79c96-d886-4336-b6f9-83f5558e5074.js 
+2013-11-24 14:07:00.4703 TRACE File downloaded. 
+2013-11-24 14:07:00.4703 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 14:07:00.4703 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 14:07:00.4703 TRACE       static/c5d8a89b-5630-45a5-a641-76f64d9c3ab0.js 
+2013-11-24 14:07:00.6803 TRACE File downloaded. 
+2013-11-24 14:07:00.6803 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 14:07:00.6803 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 14:07:00.6803 TRACE       static/b4221cd7-58c1-4161-8946-6f2f8bda5bec.js 
+2013-11-24 14:07:00.8823 TRACE File downloaded. 
+2013-11-24 14:07:00.8823 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 14:07:00.8823 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 14:07:00.8823 TRACE       static/b9f418dc-a843-4210-8d2e-553765d4e517.js 
+2013-11-24 14:07:01.0903 TRACE File downloaded. 
+2013-11-24 14:07:01.0903 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 14:07:01.0903 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 14:07:01.0903 TRACE       static/57a76f1a-6738-453d-8798-ef94b6a1d4fd.js 
+2013-11-24 14:07:01.2944 TRACE File downloaded. 
+2013-11-24 14:07:01.3124 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 14:07:05.3138 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 14:07:05.3138 TRACE       C:\Coursera\compinvesting1-003\static/48aff347-5b00-4b30-94da-22506a1cac07.css 
+2013-11-24 14:07:07.8490 TRACE File downloaded. 
+2013-11-24 14:07:07.8490 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 14:07:08.8491 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 14:07:08.8491 TRACE       C:\Coursera\compinvesting1-003\static/8cd12b6d-be11-4ecb-b91a-36dbb9c723f0.css 
+2013-11-24 14:07:10.1923 TRACE File downloaded. 
+2013-11-24 14:10:30.8763 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:10:30.9013 INFO Output root:	C:\Coursera 
+2013-11-24 14:10:30.9013 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:10:30.9123 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:10:30.9123 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:10:30.9123 DEBUG Creating directory structure. 
+2013-11-24 14:10:33.0885 DEBUG Loading static content from document. 
+2013-11-24 14:10:33.1075 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 14:10:33.1075 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 14:10:33.1075 TRACE       static/fa080575-3d43-4ed7-92d2-213139750758.js 
+2013-11-24 14:10:35.8408 TRACE File downloaded. 
+2013-11-24 14:10:35.8418 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 14:10:35.8418 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 14:10:35.8418 TRACE       static/a4e4dca7-6ac8-464d-9468-b3791c2e338f.js 
+2013-11-24 14:10:36.0238 TRACE File downloaded. 
+2013-11-24 14:10:36.0238 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 14:10:36.0238 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 14:10:36.0238 TRACE       static/2c620c51-13e9-432b-b860-ee76fa6a6bfa.js 
+2013-11-24 14:10:36.2149 TRACE File downloaded. 
+2013-11-24 14:10:36.2149 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 14:10:36.2149 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 14:10:36.2169 TRACE       static/08e00b75-aa69-4141-9211-1934bac3fe9b.js 
+2013-11-24 14:10:36.4099 TRACE File downloaded. 
+2013-11-24 14:10:36.4099 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 14:10:36.4099 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 14:10:36.4099 TRACE       static/1221c3dc-9f2b-4c77-b386-3457df4a7d82.js 
+2013-11-24 14:10:36.5979 TRACE File downloaded. 
+2013-11-24 14:10:36.5979 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 14:10:36.5979 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 14:10:36.5979 TRACE       static/98e5d691-e484-4a2a-adbc-9ac8b9b75e95.js 
+2013-11-24 14:10:36.7989 TRACE File downloaded. 
+2013-11-24 14:10:36.7989 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 14:10:36.7989 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 14:10:36.7989 TRACE       static/183a42f0-d751-4681-ae79-467982823996.js 
+2013-11-24 14:10:37.0079 TRACE File downloaded. 
+2013-11-24 14:10:37.0079 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 14:10:37.0079 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 14:10:37.0079 TRACE       static/81cbe5ff-0b78-4ae3-b00b-82d24bb22521.js 
+2013-11-24 14:10:37.2040 TRACE File downloaded. 
+2013-11-24 14:10:37.2040 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 14:10:37.2040 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 14:10:37.2040 TRACE       C:\Coursera\compinvesting1-003\static/c177b7b3-86e1-4910-a983-430572051ea8.css 
+2013-11-24 14:10:39.6472 TRACE File downloaded. 
+2013-11-24 14:10:39.6482 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 14:10:39.6482 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 14:10:39.6482 TRACE       C:\Coursera\compinvesting1-003\static/e11d9da7-9398-4b27-b180-a6a7635221fc.css 
+2013-11-24 14:10:40.8363 TRACE File downloaded. 
+2013-11-24 14:10:40.8363 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:10:40.8913 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:10:40.8913 TRACE       C:\Coursera\compinvesting1-003\images/b88706cf-eedb-4d10-a6f3-866280ae4533. 
+2013-11-24 14:10:44.0756 TRACE File downloaded. 
+2013-11-24 14:10:44.0756 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 14:10:44.0756 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 14:10:44.0756 TRACE       C:\Coursera\compinvesting1-003\images/3a3ae553-1bbd-48e7-ba93-bb0ff4198609. 
+2013-11-24 14:10:46.9569 TRACE File downloaded. 
+2013-11-24 14:27:13.0871 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:27:13.1141 INFO Output root:	C:\Coursera 
+2013-11-24 14:27:13.1141 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:27:13.1141 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:27:13.1141 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:27:13.1311 DEBUG Creating directory structure. 
+2013-11-24 14:27:15.1971 DEBUG Loading static content from document. 
+2013-11-24 14:27:15.2171 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:27:15.2181 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:27:18.2401 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Coursera\compinvesting1-003\images\91e67470-ab92-465a-aba6-b7c12d051588\c4\4371496c5361191aa6a9721cfbe1cf\Georgia-Institute-of-Technology.png'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 310
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 182
+2013-11-24 14:27:18.3191 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 14:27:18.3191 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 14:27:20.8441 ERROR Could not download static content:  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Coursera\compinvesting1-003\images\98e476de-8b1a-4c2e-b805-8dba23b61203\coursera\topics\compinvesting1\small-icon.hover.png'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at CourseraDownloader.Program.DownloadFile(String url, String outputPath) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 310
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 182
+2013-11-24 14:29:58.0601 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:29:58.0951 INFO Output root:	C:\Coursera 
+2013-11-24 14:29:58.0951 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:29:58.0951 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:29:58.0951 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:29:58.0951 DEBUG Creating directory structure. 
+2013-11-24 14:30:00.4571 DEBUG Loading static content from document. 
+2013-11-24 14:30:00.4791 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:30:00.4791 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:33:18.6591 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:33:18.6981 INFO Output root:	C:\Coursera 
+2013-11-24 14:33:18.6981 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:33:18.6981 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:33:18.6981 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:33:18.6981 DEBUG Creating directory structure. 
+2013-11-24 14:33:20.8611 DEBUG Loading static content from document. 
+2013-11-24 14:33:20.8831 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:33:20.8831 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:33:58.7291 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:33:58.7811 INFO Output root:	C:\Coursera 
+2013-11-24 14:33:58.7811 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:33:58.7811 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:33:58.7811 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:33:58.7811 DEBUG Creating directory structure. 
+2013-11-24 14:34:00.6881 DEBUG Loading static content from document. 
+2013-11-24 14:34:00.7071 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:34:00.7071 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:34:18.3931 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:34:18.4211 INFO Output root:	C:\Coursera 
+2013-11-24 14:34:18.4211 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:34:18.4211 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:34:18.4211 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:34:18.4211 DEBUG Creating directory structure. 
+2013-11-24 14:34:20.6783 DEBUG Loading static content from document. 
+2013-11-24 14:34:20.6963 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:34:20.6983 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:34:23.5496 TRACE       Filed downloaded: C:\Coursera\compinvesting1-003\images\bafe4287-73d0-4c47-b178-c0c0c1e86de0.png 
+2013-11-24 14:34:23.6386 ERROR Could not download static content:  System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 188
+2013-11-24 14:34:23.6386 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 14:34:23.6386 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 14:34:27.8680 TRACE       Filed downloaded: C:\Coursera\compinvesting1-003\images\4a16f899-71f8-4fe0-992f-7b1bc3bef384.png 
+2013-11-24 14:34:27.9220 ERROR Could not download static content:  System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at CourseraDownloader.Program.DownloadStaticContent(HtmlDocument& document, String resourceDir) in c:\Development\Personal\CourseraDownloader\CourseraDownloader\Program.cs:line 188
+2013-11-24 14:35:27.4371 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:35:27.4871 INFO Output root:	C:\Coursera 
+2013-11-24 14:35:27.4871 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:35:27.4871 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:35:27.4871 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:35:27.4871 DEBUG Creating directory structure. 
+2013-11-24 14:35:29.9621 DEBUG Loading static content from document. 
+2013-11-24 14:35:29.9811 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:35:29.9811 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:35:33.2421 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\409e5626-5d03-4ac0-942f-a068d640f961.png 
+2013-11-24 14:35:33.2421 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 14:35:33.2421 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 14:35:36.1491 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\193a5fe1-a5f3-4522-9105-68fdfae1509e.png 
+2013-11-24 14:46:13.0545 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:46:13.0805 INFO Output root:	C:\Coursera 
+2013-11-24 14:46:13.0905 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:46:13.0905 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:46:13.0905 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:46:13.0905 DEBUG Creating directory structure. 
+2013-11-24 14:46:15.3098 DEBUG Loading static content from document. 
+2013-11-24 14:46:15.3288 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:46:15.3288 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:46:19.5091 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\ad32ace9-efe2-496c-b5c7-b588c62110c5.png 
+2013-11-24 14:46:19.5091 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 14:46:19.5091 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 14:46:22.4941 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\6c11694b-fae9-4c38-942f-5e58a8213ca3.png 
+2013-11-24 14:54:57.8581 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 14:54:57.8921 INFO Output root:	C:\Coursera 
+2013-11-24 14:54:57.8921 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 14:54:57.8921 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 14:54:57.8921 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 14:54:57.8921 DEBUG Creating directory structure. 
+2013-11-24 14:55:00.2021 DEBUG Loading static content from document. 
+2013-11-24 14:55:00.2591 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 14:55:00.2591 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 14:55:03.9811 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\e538c521-8e68-4b31-ae1d-c2c9697632d7.js 
+2013-11-24 14:55:03.9811 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 14:55:03.9811 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 14:55:04.1621 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\055e6b83-f021-4e52-b723-fde50c92313d.js 
+2013-11-24 14:55:04.1631 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 14:55:04.1631 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 14:55:04.3441 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\ec88f0b8-cc44-4e81-96d9-db2719c9049d.js 
+2013-11-24 14:55:04.3441 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 14:55:04.3441 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 14:55:04.5411 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\78247bb2-ca1a-48d4-a9b2-1a32d6124e41.js 
+2013-11-24 14:55:04.5411 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 14:55:04.5411 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 14:55:04.7301 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\5f5a46f0-391e-4485-ae06-c277c12a9349.js 
+2013-11-24 14:55:04.7301 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 14:55:04.7301 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 14:55:04.9141 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\1d1da9b7-8d0c-415c-972e-3ae631a41605.js 
+2013-11-24 14:55:04.9141 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 14:55:04.9141 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 14:55:05.1071 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\361b6eac-d0f9-45bd-8e0c-96adab3060cb.js 
+2013-11-24 14:55:05.1071 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 14:55:05.1071 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 14:55:05.3031 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\14256195-931b-4d3f-a878-17bbac6cd267.js 
+2013-11-24 14:55:05.3031 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 14:55:05.3031 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 14:55:08.5351 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\a06a4ba9-438e-46ad-805a-3db76bfa8427.css 
+2013-11-24 14:55:08.5351 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 14:55:08.5351 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 14:55:09.8781 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\eb25999a-03cc-4472-83a4-aa92a5bf9709.css 
+2013-11-24 14:55:09.8781 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 14:55:09.8781 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 14:55:11.9221 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\e2b16e59-45c8-407c-bd33-2f896e62feac.png 
+2013-11-24 14:55:11.9221 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 14:55:11.9221 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 14:55:15.0931 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\19f9e80b-9ea8-4152-8580-6e72afd93c11.png 
+2013-11-24 15:04:46.2121 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 15:04:46.2511 INFO Output root:	C:\Coursera 
+2013-11-24 15:04:46.2511 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 15:04:46.2511 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 15:04:46.2511 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 15:04:46.2681 DEBUG Creating directory structure. 
+2013-11-24 15:04:49.2151 DEBUG Loading static content from document. 
+2013-11-24 15:04:49.2351 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 15:04:49.2351 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 15:04:53.4981 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\43108053-baf2-46ad-988c-a52b7b7d8179.js 
+2013-11-24 15:04:53.4981 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 15:04:53.4981 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 15:04:53.7111 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\214b0fb1-3eef-4216-a761-32c8ed3e0cde.js 
+2013-11-24 15:04:53.7111 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 15:04:53.7111 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 15:04:53.9331 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\9519c5e8-1391-4cb0-950e-2e73bc10c7cf.js 
+2013-11-24 15:04:53.9331 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 15:04:53.9331 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 15:04:54.1531 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\72a6e0e5-f4cd-4f25-8170-0750d9adedcb.js 
+2013-11-24 15:04:54.1531 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 15:04:54.1531 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 15:04:54.3561 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\79e070fe-c48f-477e-baaf-e9f2ba9ab999.js 
+2013-11-24 15:04:54.3561 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 15:04:54.3561 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 15:04:54.5761 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\3771431b-0c5b-4770-bbf4-55900cd82607.js 
+2013-11-24 15:04:54.5761 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 15:04:54.5821 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 15:04:54.8101 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\ff0aa095-0039-485d-b136-c3610ca88229.js 
+2013-11-24 15:04:54.8101 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 15:04:54.8101 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 15:04:55.0491 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\f98ca9e4-4228-4454-9e2e-43e77e232eaa.js 
+2013-11-24 15:04:55.0491 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 15:04:55.0491 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 15:04:57.4321 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\01cbbd84-ead0-470d-bef9-f56f2e244f1f.css 
+2013-11-24 15:04:57.4341 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 15:04:57.4341 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 15:04:58.7721 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\8b3a06fc-d5be-4691-be06-b3e29bd49923.css 
+2013-11-24 15:04:58.7721 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 15:04:58.7721 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 15:05:02.5971 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\fa6bfb9b-43bc-43a4-acda-7f9a2d74e7e6.png 
+2013-11-24 15:05:02.5991 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 15:05:02.5991 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 15:05:06.1511 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\5f457e5f-aeb1-458a-94d2-3dda8638d89a.png 
+2013-11-24 15:07:49.1281 INFO Starting logger for CourseId: compinvesting1-003 
+2013-11-24 15:07:49.1621 INFO Output root:	C:\Coursera 
+2013-11-24 15:07:49.1621 DEBUG Output path:	C:\Coursera\compinvesting1-003 
+2013-11-24 15:07:49.1621 INFO Start cleaning directory C:\Coursera\compinvesting1-003 
+2013-11-24 15:07:49.1621 DEBUG Deleting C:\Coursera\compinvesting1-003 
+2013-11-24 15:07:49.1721 DEBUG Creating directory structure. 
+2013-11-24 15:07:51.3971 DEBUG Loading static content from document. 
+2013-11-24 15:07:51.4171 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js"></script> 
+2013-11-24 15:07:51.4191 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/spark.js 
+2013-11-24 15:07:54.0441 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\c7247d42-c0dc-4b35-accc-5f34c944abf6.js 
+2013-11-24 15:07:54.0441 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js" type="text/javascript"></script> 
+2013-11-24 15:07:54.0441 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/modal_focus.js 
+2013-11-24 15:07:54.2381 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\3b294a41-c50e-456d-9b90-07cc3f5e4b85.js 
+2013-11-24 15:07:54.2381 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js" type="text/javascript"></script> 
+2013-11-24 15:07:54.2381 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/core/js/get_query_parameters.js 
+2013-11-24 15:07:54.4391 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\5985a418-e25d-49d7-acd3-3b9b06adf979.js 
+2013-11-24 15:07:54.4391 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js" type="text/javascript"></script> 
+2013-11-24 15:07:54.4391 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signature_track.js 
+2013-11-24 15:07:54.6541 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\6cceefb8-08f0-452b-aa36-8c7c75cff8df.js 
+2013-11-24 15:07:54.6541 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js" type="text/javascript"></script> 
+2013-11-24 15:07:54.6541 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal.html.js 
+2013-11-24 15:07:54.8841 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\36556315-acfd-4da4-9b3b-2ef7dfed564c.js 
+2013-11-24 15:07:54.8841 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js" type="text/javascript"></script> 
+2013-11-24 15:07:54.8841 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/signature/js/signatureTrackLastChanceModal2.html.js 
+2013-11-24 15:07:55.0911 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\31dccca4-96b0-467f-98b9-fa002147542f.js 
+2013-11-24 15:07:55.0911 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js" type="text/javascript"></script> 
+2013-11-24 15:07:55.0911 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/item_list.js 
+2013-11-24 15:07:55.3381 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\312066a3-56e1-4595-ae83-5a2ec3b68cc3.js 
+2013-11-24 15:07:55.3381 TRACE Node outer HTML: <script src="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js" type="text/javascript"></script> 
+2013-11-24 15:07:55.3381 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/spark/app/generic/js/navbar.js 
+2013-11-24 15:07:55.5281 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\c8766128-f4f2-450a-a576-c0c0e14fa4dd.js 
+2013-11-24 15:07:55.5281 TRACE Node outer HTML: <link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css"> 
+2013-11-24 15:07:55.5281 TRACE Downloading https://dt5zaw6a98blc.cloudfront.net/site-static/8889f9583c71ef24b07ea5702f81f8523f5fce68/css/spark.main.css 
+2013-11-24 15:07:57.2481 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\6fbfcfbd-7e9a-4b57-96d8-d4aa61b80c94.css 
+2013-11-24 15:07:57.2481 TRACE Node outer HTML: <link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/971169/course.css"> 
+2013-11-24 15:07:57.2481 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/course.css 
+2013-11-24 15:07:58.5921 TRACE       File downloaded: C:\Coursera\compinvesting1-003\resources\91b53c16-ba2a-4b03-9fdd-fd33627d5615.css 
+2013-11-24 15:07:58.5921 TRACE Node outer HTML: <img src="https://www.coursera.org/maestro/api/course/971169/university_logo" alt="gatech"> 
+2013-11-24 15:07:58.5921 TRACE Downloading https://www.coursera.org/maestro/api/course/971169/university_logo 
+2013-11-24 15:08:00.1961 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\48772849-1018-49ef-84dd-686a5d9dedcc.png 
+2013-11-24 15:08:00.1961 TRACE Node outer HTML: <img src="https://www.coursera.org//maestro/api/course/971169/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"> 
+2013-11-24 15:08:00.1961 TRACE Downloading https://www.coursera.org//maestro/api/course/971169/logo 
+2013-11-24 15:08:03.1431 TRACE       File downloaded: C:\Coursera\compinvesting1-003\images\f91c286d-c912-4d9c-ae3e-5ee1f6807ee1.png 

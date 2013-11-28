@@ -9,3 +9,14 @@ E:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\Coursera
 E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.config
 E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.dll
 E:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.xml
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\CourseraDownloader.exe
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\CourseraDownloader.pdb
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.config
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\CourseraDownloader.exe
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\CourseraDownloader.pdb
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\HtmlAgilityPack.dll
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.dll
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\HtmlAgilityPack.pdb
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\HtmlAgilityPack.xml
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\bin\Debug\NLog.xml
+C:\Development\Personal\CourseraDownloader\CourseraDownloader\obj\Debug\CourseraDownloader.csprojResolveAssemblyReference.cache
